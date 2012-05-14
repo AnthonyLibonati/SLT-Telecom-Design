@@ -1,0 +1,35 @@
+
+body {
+	margin: 0;
+	height: auto;
+	width: 100%:
+}
+
+
+
+#home_page{
+height:1200px;
+width: 960px;
+display:block;
+margin: 0 auto;
+background: #fff url(home_page.jpg) no-repeat center top;
+}
+
+
+
+#tv_page{
+height:1200px;
+width: 960px;
+display:block;
+margin: 0 auto;
+background: #fff url(tv_page.jpg) no-repeat center top;
+}
+
+#contact_page{
+height:1200px;
+width: 960px;
+display:block;
+margin: 0 auto;
+background: #fff url(contact_page.jpg) no-repeat center top;
+}
+
