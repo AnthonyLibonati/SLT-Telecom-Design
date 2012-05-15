@@ -1,35 +1,58 @@
 
+
 body {
-	margin: 0;
-	height: auto;
-	width: 100%:
+
+width: 100%;
+font-family: 'Oswald', sans-serif;
+}
+
+#container{
+width: 100%;
+background-color: none;
+
 }
 
 
+#header{
 
-#home_page{
-height:1200px;
-width: 960px;
-display:block;
-margin: 0 auto;
-background: #fff url(home_page.jpg) no-repeat center top;
+margin-top: 35px;
+background-color: none;
+
+
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+   
+}
+ul.horizontal_list li{
+    text-align: left;
+    float: left;
+    list-style: none;
+    padding: 2px 8px 5px 0px;
+    margin: 25px 10px 0px 12px;
+    border: none;
+    color: #d2232a;
+    background-color: none;
+    font-size: 90%;
+    letter-spacing: .10em;
 }
 
 
+a.nav:link {text-decoration:none; color: #d2232a;}
+a.nav:visited {text-decoration:none; color: #d2232a;}
+a.nav:hover {text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
+a.nav:active {text-decoration:none;}
 
-#tv_page{
-height:1200px;
-width: 960px;
-display:block;
-margin: 0 auto;
-background: #fff url(tv_page.jpg) no-repeat center top;
+
+#home_button{
+
+
+margin-top: -px;
+
+
 }
 
-#contact_page{
-height:1200px;
-width: 960px;
-display:block;
-margin: 0 auto;
-background: #fff url(contact_page.jpg) no-repeat center top;
-}
 
+.current_page {text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
