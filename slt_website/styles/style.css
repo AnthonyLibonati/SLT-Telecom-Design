@@ -5,8 +5,6 @@ body {
 	width: 100%:
 }
 
-
-
 #home_page{
 height:1200px;
 width: 960px;
@@ -14,8 +12,6 @@ display:block;
 margin: 0 auto;
 background: #fff url(home_page.jpg) no-repeat center top;
 }
-
-
 
 #tv_page{
 height:1200px;
@@ -26,10 +22,43 @@ background: #fff url(tv_page.jpg) no-repeat center top;
 }
 
 #contact_page{
-height:1200px;
+height: 1200px;
 width: 960px;
-display:block;
+display: block;
 margin: 0 auto;
 background: #fff url(contact_page.jpg) no-repeat center top;
 }
 
+/* START FOOTER anthony */
+
+#footer {
+	height: 32px;
+	width: 960px;
+	background: #d2232a;
+	clear: both;
+	}
+
+#footer .footerLink {
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	color: White;
+	}
+
+#footer p {
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 225px;
+	float: left;
+	display: block;
+	color: White;
+	}
+
+/* END FOOTER anthony */
