@@ -26,7 +26,7 @@ ul{
     padding: 0;
    
 }
-ul.horizontal_list li{
+ul.nav li{
     text-align: left;
     float: left;
     list-style: none;
