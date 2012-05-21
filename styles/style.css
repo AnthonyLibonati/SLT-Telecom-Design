@@ -93,10 +93,6 @@ body {
 	background-color: #d2232a;
 	padding: 30px;
 	}
-	
-#servicesIntro {
-
-	}	
 
 #servicesIntro H1{
 	width: 900px;
@@ -265,6 +261,37 @@ body {
 
 /* END PRODUCTS PAGE */
 
+/* START WHO WE ARE PAGE */
+
+#whoIntroWrap {
+	background-color: #d2232a;
+	padding: 30px;
+	}
+
+#whoText H3{
+	color: White;
+	}
+
+#missionStatement {
+	margin-top: 20px;
+	border-bottom: solid 2px #d2232a;
+	}
+
+#whereWeDoIt {
+	background-color: #d2232a;
+	padding: 10px;
+	margin-top: 20px;
+	}
+	
+#whereWeDoIt H4 {
+	color: white;
+	}
+	
+#whereWeDoIt p {
+	color: white;
+	}
+	
+/* END WHO WE ARE PAGE */
 
 /* START FOOTER */
 
