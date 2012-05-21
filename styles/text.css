@@ -9,7 +9,7 @@
 ----------------------------------------------------------------------------------------------------*/
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
 pre,
@@ -28,8 +28,7 @@ hr {
 ----------------------------------------------------------------------------------------------------*/
 
 h1 {
-  font-size: 48px; 
-  color: white;
+  font-size: 25px;
 }
 
 h2 {
