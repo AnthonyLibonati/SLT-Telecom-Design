@@ -72,9 +72,6 @@ p {
 
 
 
-body {
-	margin: 0px;
-	}
 
 /* START SERVICES PAGE */
 
@@ -404,11 +401,16 @@ margin-top: 10px;
 }
 
 .contact_house{
-margin: 6px 0 0 0;
+margin: 10px 0 0 690px;
 }
 
 .contact_bubble{
 
-margin-left: -116px;
+margin-top: -110px;
+margin-left: 690px;
+}
+
+.contact a{
+
 
 }
