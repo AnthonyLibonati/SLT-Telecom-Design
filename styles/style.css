@@ -36,6 +36,7 @@ H3 {
 	font-size: 28px;
 	line-height: 40px;
 	color: #d2232a;
+	letter-spacing: .07em;
 	}
 
 H4 {
@@ -175,16 +176,18 @@ body {
 
 #productsIntro {
 	background-color: #d2232a;
-	padding: 30px;
+	padding: 30px 0 30px 0;
 	width: 960px;
 	}
 	
 	#productsIntro h3{
 	color: White;
+	padding-left: 30px;
 	}
 	
 	.products #text{
 	width: 540px;
+	
 
 	
 	}
@@ -246,6 +249,9 @@ body {
   
 	}
 
+.products h1{
+padding-left: 30px
+}
 
 /* END PRODUCTS PAGE */
 
@@ -330,6 +336,8 @@ body {
 
 /* END FOOTER */
 
+/* navigation */
+
 
 ul.nav li{
     
@@ -362,6 +370,10 @@ margin-top: -10px;
 
 .current_page{text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
 
+/* end navigation*/
+
+/* home page */
+
 #content{
 margin-top: 0px;
 background-color:  #d2232a;
@@ -373,18 +385,17 @@ margin-bottom: 60px;
 
 
 h1.home_page {
-  font-size: 48px; 
-  color: white;
-  margin: 30px 0 0 40px;
+   
+   padding: 30px 0 0 30px;
   letter-spacing: .05em;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
-h2.home_page {
-  font-size: 22px; 
+h3.home_page {
+   
   color: white;
-  margin: 30px 0 0 40px;
-  letter-spacing: .07em;
+  padding: 0px 0 0 30px;
+  letter-spacing: .08em;
   line-height: 1.5em;
 }
 
@@ -393,7 +404,7 @@ margin-top: 10px;
 }
 
 .contact_house{
-margin: 45px 0 0 0;
+margin: 6px 0 0 0;
 }
 
 .contact_bubble{
