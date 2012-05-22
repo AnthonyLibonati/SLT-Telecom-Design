@@ -9,7 +9,7 @@ $(".contact_bubble").hover(function () {
 // SET OPACITY TO 100%
 $(this).stop().animate({
 opacity: 1.0
-}, "slow");
+}, "200");
 },
  
 // ON MOUSE OUT
@@ -18,7 +18,7 @@ function () {
 // SET OPACITY BACK TO 0%
 $(this).stop().animate({
 opacity: 0
-}, "slow");
+}, "200");
 });
 }); 
 
