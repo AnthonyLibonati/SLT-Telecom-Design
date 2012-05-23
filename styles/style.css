@@ -266,6 +266,7 @@ padding-left: 30px
 
 #missionStatement {
 	margin-top: 40px;
+	padding-bottom: 30px;
 	border-bottom: solid 2px #d2232a;
 	}
 
@@ -280,8 +281,8 @@ padding-left: 30px
 	
 #whereWeDoIt H4 {
 	color: white;
-	margin-bottom; 16px;
-	margin-top; 24px;
+	margin-top: 24px;
+	margin-bottom: 8px;
 	}
 	
 #whereWeDoIt p {
@@ -289,13 +290,18 @@ padding-left: 30px
 	}	
 	
 #whereWeDoIt img {
-	width: 350px;
-	height: ;
+	width: 100%;
 	}
 	
 #whatWeDo {
 	margin-top: 40px;
 	}	
+
+#whatWeDo H4 {
+	margin-bottom; 16px;
+	margin-top: 24px;
+	margin-bottom: 8px;
+	}
 	
 /* END WHO WE ARE PAGE */
 
