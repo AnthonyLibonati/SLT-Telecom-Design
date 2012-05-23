@@ -49,6 +49,28 @@ H4 {
 	color: #d2232a;
 	}
 	
+H5 {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 36px;
+	color: #d2232a;
+	}
+	
+H6 {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 36px;
+	color: #d2232a;
+	}
+
+		
+	
 p {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
@@ -440,25 +462,56 @@ margin-top: -110px;
 margin-left: 690px;
 }
 
-.contactFooter{
-
-margin-left: auto;
-margin-right: auto;
-
-}
 
 
 
 /*contact page*/
 
 
-
 #contact_content{
 
-height: 100%;
-width: 100%;
-border-top: solid #d2232a 3px; 
+border-top: solid #d2232a 4px;
 
+}
+
+.contactInfo{
+width: 300px;
+padding-top: 10px;
+margin-left: 30px;
+
+}
+
+.contactInfo h2{
+background: white;
+color: #d2232a;	
+font-weight: 500;
+font-size: 38px;
+ 
+}
+
+
+.callAnytime{
+
+padding-bottom: 10px;
+margin-top: -15px;
+
+}
+
+.ownerTechnician{
+padding-bottom: 10px;
+margin-top: -20px;
+border-bottom: solid #d2232d 2px;
+}
+
+.phoneNumber{
+
+margin-top: -25px;
+
+}
+
+.twitter{
+
+<<<<<<< HEAD
 }
 
 /* #Media Queries
@@ -478,3 +531,27 @@ border-top: solid #d2232a 3px;
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {}
+=======
+float: left;
+padding-right: 10px;
+line-height: 20px;
+}
+
+.contactFooter{
+
+	width:960px;
+	margin:0px auto;
+
+}
+
+.twitterLogo{
+padding-top: 5px;
+}
+
+#footContainer{
+
+margin: 0px auto;
+width: 960px;
+
+}
+>>>>>>> contact page updates
