@@ -15,9 +15,10 @@ H1 {
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 48px;
-	line-height: 60px;
+	line-height: 48px;
 	color: White;
 	background: #d2232a;
+	letter-spacing: .08em;
 	}
 	
 H2 {
@@ -27,6 +28,7 @@ H2 {
 	font-size: 40px;
 	line-height: 56px;
 	color: #d2232a;
+	margin-bottom: 10px;
 	}
 
 H3 {
@@ -261,6 +263,7 @@ padding-left: 30px
 	}
 
 #whoText H3{
+	margin-top: 10px;
 	color: White;
 	}
 
@@ -270,19 +273,23 @@ padding-left: 30px
 	border-bottom: solid 2px #d2232a;
 	}
 
-#whereWeDoIt {
-	background-color: #d2232a;
-	padding: 30px;
-	margin-top: 50px;
+#where {
+	margin-top: 40px;
 	width: 410px;
 	display: block;
 	float: left;
+	}
+
+#whereWeDoIt {
+	background-color: #d2232a;
+	padding: 30px;
+	width: 410px;
 	}
 	
 #whereWeDoIt H4 {
 	color: white;
 	margin-top: 24px;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 	}
 	
 #whereWeDoIt p {
@@ -297,10 +304,12 @@ padding-left: 30px
 	margin-top: 40px;
 	}	
 
+#whatWeDo p{
+	margin-bottom: 20px;
+	}	
+
 #whatWeDo H4 {
-	margin-bottom; 16px;
-	margin-top: 24px;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 	}
 	
 /* END WHO WE ARE PAGE */
