@@ -492,27 +492,55 @@ font-size: 38px;
 
 .callAnytime{
 
-padding-bottom: 10px;
-margin-top: -15px;
+padding-bottom: 0px;
+margin-top: 5px;
 
 }
 
 .ownerTechnician{
 padding-bottom: 10px;
-margin-top: -20px;
+margin-top: -10px;
 border-bottom: solid #d2232d 2px;
 }
 
 .phoneNumber{
 
-margin-top: -25px;
+margin: 5px 0 0 0;
+
+}
+
+.address1{
+
+margin: 5px 0 0 0;
+
+}
+
+.address2{
+
+margin: -5px 0 0 0;
+
+}
+
+.email{
+
+
 
 }
 
 .twitter{
 
-<<<<<<< HEAD
+float: left;
+margin: 10px 10px 0 0;
+
 }
+
+.twitterLogo{
+margin-top: 15px;
+
+}
+
+<<<<<<< HEAD
+
 
 /* #Media Queries
 ======================================================================================= */
