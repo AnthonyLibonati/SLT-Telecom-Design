@@ -44,7 +44,6 @@ H4 {
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 20px;
-	line-height: 36px;
 	color: #d2232a;
 	}
 	
@@ -266,23 +265,37 @@ padding-left: 30px
 	}
 
 #missionStatement {
-	margin-top: 20px;
+	margin-top: 40px;
 	border-bottom: solid 2px #d2232a;
 	}
 
 #whereWeDoIt {
 	background-color: #d2232a;
-	padding: 10px;
-	margin-top: 20px;
+	padding: 30px;
+	margin-top: 50px;
+	width: 410px;
+	display: block;
+	float: left;
 	}
 	
 #whereWeDoIt H4 {
 	color: white;
+	margin-bottom; 16px;
+	margin-top; 24px;
 	}
 	
 #whereWeDoIt p {
 	color: white;
+	}	
+	
+#whereWeDoIt img {
+	width: 350px;
+	height: ;
 	}
+	
+#whatWeDo {
+	margin-top: 40px;
+	}	
 	
 /* END WHO WE ARE PAGE */
 
