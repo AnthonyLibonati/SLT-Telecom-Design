@@ -4,6 +4,8 @@
 <html>
 	<head>
 		<title>SLT Telecom Products</title>
+		
+		
 
 		<link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
 		<link rel="stylesheet" href="styles/960_12_col.css" type="text/css" media="all">
@@ -11,12 +13,49 @@
 		<link rel="stylesheet" href="styles/style.css" type="text/css" media="all">
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 		
+			<title>Products</title>
+			
+		  <script src="scripts/jquery-1.7.2.min.js" language="javascript"></script>
+			
+			
+			
+	
+	
+	
+
+<script type="text/javascript">
+ $(document).ready(function(){
+
+$('.controls li').click(function() {
+   
+      //get the class of whatever is clicked on
+   var my_value=  $(this).attr('class'); 
+      //hide all slides that don't have initial class
+ $('#slide_wrap .slide').removeClass('show');
+      //find the relating class within the slides
+ 
+      //add show to the relating class that was clicked on
+	$('#slide_wrap .'+my_value).addClass('show'); 
+//alert(target_slide);
+         
+       
+          
+          
+
+    
+          
+    });
+
+});
+</script>
+
+	
+		
 	</head>
 	
-<html>
-	<head>
-		<title>Products</title>
-	</head>
+
+	
+	
 	<body class="products">
 	
 
@@ -48,31 +87,66 @@
 					<h1>HARDWARE READY</h1>
 					 <div id="text"><h3>We have everything you'll need to hook up your home entertainment system. Choose from our wide variety of TVs Speakers, DVRs, and more.</h3></div>
 				</div><!--end intro-->
-					
-				<div id="products">
 				
-				<div id="nav2">	
+				<div class="controls">	
 				
 				<ul class="products_nav">
     				
-    				<li class="productNav">DVRs &amp; Receivers</li>
-    				<li class="productNav">Home Theatre</li>
-   					<li class="productNav">Phone &amp; Internet </li>
+    				<li class="slide1"> DVRs &amp; Receivers</li>
+    				<li class="slide2">Home Theatre</li>
+   					<li class="slide3">Phone &amp; Internet</li>
+    				</ul>
     				
-				</ul>
-				</div><!--end nav2 -->
-				
-					<img src="images/hopper.jpg" class='grid_4 alpha'/>
-					<div id="text" class="grid_8"><p>One of the great things about working with SLT is the ability to customize 
-					your TV experience. Looking for all you favorite movie channels, but also 
-					ESPN and Nickelodeon. We can do that. Or maybe you just want a couple of news channels 
-					and Comedy Central. We can hook you up. But unfortunately, there are so many options 
-					that we can't list them all here. Just click the button below and tell us what 
-					you are looking for, and we will get you a quote as soon as possible.</p>
-					<a href="contact.html">GET A QUOTE</a>
-					</div><!--end text-->
+				</div><!--end controls -->
 					
-				</div><!--end products-->
+				<div id="slide_wrap">
+				
+		
+				
+				<div class="slide1 slide show">	
+				
+					<div class="photo"><img src="images/hopper.jpg" alt="hopper"/></div>
+						
+						<div id="text" class="grid_8"><p>1_____One of the great things about working with SLT is the ability to customize 
+						your TV experience. Looking for all you favorite movie channels, but also 
+						ESPN and Nickelodeon. We can do that. Or maybe you just want a couple of news channels 
+						and Comedy Central. We can hook you up. But unfortunately, there are so many options 
+						that we can't list them all here. Just click the button below and tell us what 
+						you are looking for, and we will get you a quote as soon as possible.</p>
+						<a href="contact.html">GET A QUOTE</a>
+						</div><!--end text-->
+						
+					</div><!--end slide-->
+					
+					<div class="slide2 slide">	
+						<div class="photo"><img src="images/hopper.jpg" alt="hopper"/></div>
+						
+						<div id="text" class="grid_8"><p>2____One of the great things about working with SLT is the ability to customize 
+						your TV experience. Looking for all you favorite movie channels, but also 
+						ESPN and Nickelodeon. We can do that. Or maybe you just want a couple of news channels 
+						and Comedy Central. We can hook you up. But unfortunately, there are so many options 
+						that we can't list them all here. Just click the button below and tell us what 
+						you are looking for, and we will get you a quote as soon as possible.</p>
+						<a href="contact.html">GET A QUOTE</a>
+						</div><!--end text-->
+						
+					</div><!--end slide-->
+					
+					<div class="slide3 slide">	
+					
+						<div class="photo"><img src="images/hopper.jpg" alt="hopper"/></div>
+						
+						<div id="text" class="grid_8"><p>3_____One of the great things about working with SLT is the ability to customize 
+						your TV experience. Looking for all you favorite movie channels, but also 
+						ESPN and Nickelodeon. We can do that. Or maybe you just want a couple of news channels 
+						and Comedy Central. We can hook you up. But unfortunately, there are so many options 
+						that we can't list them all here. Just click the button below and tell us what 
+						you are looking for, and we will get you a quote as soon as possible.</p>
+						<a href="contact.html">GET A QUOTE</a>
+						</div><!--end text-->
+					</div><!--end slide-->
+					
+				</div><!--end slide_wrap-->
 		    
 			
 			
