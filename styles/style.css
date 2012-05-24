@@ -480,7 +480,7 @@ margin-top: 10px;
 }
 
 .contact_house{
-margin: 10px 0 0 690px;
+margin: 36px 0 0 690px;
 }
 
 .contact_bubble{
@@ -544,7 +544,7 @@ margin: 5px 0 0 0;
 
 .address2{
 
-margin: -5px 0 0 0;
+margin: -10px 0 0 0;
 
 }
 
@@ -558,12 +558,22 @@ margin: -5px 0 0 0;
 
 float: left;
 margin: 10px 10px 0 0;
+line-height: 20px;
+letter-spacing: .05em;
 
 }
 
-.twitterLogo{
-margin-top: 15px;
 
+
+.twitterLogo{
+margin-top: 12px;
+margin-left: -12px;
+
+}
+
+.facebookLogo{
+margin-left: 35px;
+margin-top: 12px;
 }
 
 <<<<<<< HEAD
