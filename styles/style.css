@@ -15,9 +15,10 @@ H1 {
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 48px;
-	line-height: 60px;
+	line-height: 48px;
 	color: White;
 	background: #d2232a;
+	letter-spacing: .08em;
 	}
 	
 H2 {
@@ -27,6 +28,7 @@ H2 {
 	font-size: 40px;
 	line-height: 56px;
 	color: #d2232a;
+	margin-bottom: 10px;
 	}
 
 H3 {
@@ -36,6 +38,7 @@ H3 {
 	font-size: 28px;
 	line-height: 40px;
 	color: #d2232a;
+	letter-spacing: .07em;
 	}
 
 H4 {
@@ -43,9 +46,30 @@ H4 {
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 20px;
+	color: #d2232a;
+	}
+	
+H5 {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 18px;
 	line-height: 36px;
 	color: #d2232a;
 	}
+	
+H6 {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 36px;
+	color: #d2232a;
+	}
+
+		
 	
 p {
 	font-family: 'Oswald', sans-serif;
@@ -61,6 +85,8 @@ p {
 
 #container{
 	background-color: none;
+	margin: 0 auto;
+	width: 960px;
 	}
 
 #header{
@@ -68,24 +94,9 @@ p {
 	background-color: none;
 	}
 
-ul{
-    margin: 0 auto;
-    padding: 0;
-	}
 
-ul.horizontal_list li{
-    text-align: left;
-    float: left;
-    list-style: none;
-    padding: 3px 10px 3px 10px;
-    margin: 5px;
-    border: none;
-    color: #d2232a;
-	}
 
-body {
-	margin: 0px;
-	}
+
 
 /* START SERVICES PAGE */
 
@@ -93,10 +104,6 @@ body {
 	background-color: #d2232a;
 	padding: 30px;
 	}
-	
-#servicesIntro {
-
-	}	
 
 #servicesIntro H1{
 	width: 900px;
@@ -191,15 +198,17 @@ body {
 
 #productsIntro {
 	background-color: #d2232a;
-	padding: 30px;
+	padding: 30px 0 30px 0;
 	width: 960px;
 	}
 	
 	#productsIntro h3{
 	color: White;
+	padding-left: 30px;
 	}
 	
 	.products #text{
+
 	width:540px;
 
 	
@@ -289,9 +298,70 @@ body {
   
 	}
 
+.products h1{
+padding-left: 30px
+}
 
 /* END PRODUCTS PAGE */
 
+/* START WHO WE ARE PAGE */
+
+#whoIntroWrap {
+	background-color: #d2232a;
+	padding: 30px;
+	}
+
+#whoText H3{
+	margin-top: 10px;
+	color: White;
+	}
+
+#missionStatement {
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border-bottom: solid 2px #d2232a;
+	}
+
+#where {
+	margin-top: 40px;
+	width: 410px;
+	display: block;
+	float: left;
+	}
+
+#whereWeDoIt {
+	background-color: #d2232a;
+	padding: 30px;
+	width: 410px;
+	}
+	
+#whereWeDoIt H4 {
+	color: white;
+	margin-top: 24px;
+	margin-bottom: 5px;
+	}
+	
+#whereWeDoIt p {
+	color: white;
+	}	
+	
+#whereWeDoIt img {
+	width: 100%;
+	}
+	
+#whatWeDo {
+	margin-top: 40px;
+	}	
+
+#whatWeDo p{
+	margin-bottom: 20px;
+	}	
+
+#whatWeDo H4 {
+	margin-bottom: 5px;
+	}
+	
+/* END WHO WE ARE PAGE */
 
 /* START FOOTER */
 
@@ -300,6 +370,7 @@ body {
 	background: #d2232a;
 	height: 35px;
 	margin: 50px 0px 0px 0px;
+	float: left
 	}
 
 #footer ul {
@@ -335,20 +406,30 @@ body {
 	color: White;
 	margin: 4px 0px 0px 20px;
 	font-size: 10px;
+	
 	}
 	
 
 /* END FOOTER */
 
+/* navigation */
+
 
 ul.nav li{
-    text-align: left;
+    
     float: left;
+    text-align: left;
+   
     list-style: none;
-    padding: 2px 8px 5px 0px;
-    margin: 25px 10px 0px 12px;
+    
+    margin: 5px;
     border: none;
     color: #d2232a;
+
+    padding: 2px 8px 35px 0;
+    margin: 25px 10px 0px 12px;
+    border: none;
+    
     background-color: none;
     font-size: 85%;
     letter-spacing: .08em;
@@ -360,34 +441,37 @@ a.nav:hover {text-decoration:none; padding-bottom: 2px; border-bottom:1px solid 
 a.nav:active {text-decoration:none;}
 
 #home_button{
-margin-top: 0px;
+margin-top: -10px;
 }
 
-.current_page {text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
+.current_page{text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
+
+/* end navigation*/
+
+/* home page */
 
 #content{
-margin-top: 20px;
+margin-top: 0px;
 background-color:  #d2232a;
 height: 400px;
 clear: both;
 display: block;
-margin-bottom: 60px;
+
 }
 
 
 h1.home_page {
-  font-size: 48px; 
-  color: white;
-  margin: 30px 0 0 40px;
+   
+   padding: 30px 0 0 30px;
   letter-spacing: .05em;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
-h2.home_page {
-  font-size: 22px; 
+h3.home_page {
+   
   color: white;
-  margin: 30px 0 0 40px;
-  letter-spacing: .07em;
+  padding: 0px 0 0 30px;
+  letter-spacing: .08em;
   line-height: 1.5em;
 }
 
@@ -396,5 +480,133 @@ margin-top: 10px;
 }
 
 .contact_house{
-margin: 45px 0 0 0;
+margin: 10px 0 0 690px;
 }
+
+.contact_bubble{
+
+margin-top: -110px;
+margin-left: 690px;
+}
+
+
+
+
+/*contact page*/
+
+
+#contact_content{
+
+border-top: solid #d2232a 4px;
+
+}
+
+.contactInfo{
+width: 300px;
+padding-top: 10px;
+margin-left: 30px;
+
+}
+
+.contactInfo h2{
+background: white;
+color: #d2232a;	
+font-weight: 500;
+font-size: 38px;
+ 
+}
+
+
+.callAnytime{
+
+padding-bottom: 0px;
+margin-top: 5px;
+
+}
+
+.ownerTechnician{
+padding-bottom: 10px;
+margin-top: -10px;
+border-bottom: solid #d2232d 2px;
+}
+
+.phoneNumber{
+
+margin: 5px 0 0 0;
+
+}
+
+.address1{
+
+margin: 5px 0 0 0;
+
+}
+
+.address2{
+
+margin: -5px 0 0 0;
+
+}
+
+.email{
+
+
+
+}
+
+.twitter{
+
+float: left;
+margin: 10px 10px 0 0;
+
+}
+
+.twitterLogo{
+margin-top: 15px;
+
+}
+
+<<<<<<< HEAD
+
+
+/* #Media Queries
+======================================================================================= */
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {}
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {}
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {}
+=======
+float: left;
+padding-right: 10px;
+line-height: 20px;
+}
+
+.contactFooter{
+
+	width:960px;
+	margin:0px auto;
+
+}
+
+.twitterLogo{
+padding-top: 5px;
+}
+
+#footContainer{
+
+margin: 0px auto;
+width: 960px;
+
+}
+>>>>>>> contact page updates
