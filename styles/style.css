@@ -98,6 +98,9 @@ p {
 
 
 
+
+
+
 /* START SERVICES PAGE */
 
 #servicesIntroWrap {
@@ -134,6 +137,19 @@ p {
 	float: right;
 	}
 
+#tv a:hover {
+	color: #cccccc;
+	}
+	
+	#internet a:hover {
+	color: #cccccc;
+	}
+
+#phone a:hover {
+	color: #cccccc;
+	}
+
+	
 #internet {
 	padding: 10px;
 	border-bottom: solid 2px #d2232a;
@@ -190,6 +206,9 @@ p {
 	margin-right: 10px;
 	width: 60px;
 	}
+
+
+
 
 /* END SERVICES PAGE */
 
@@ -644,6 +663,8 @@ margin-left: 4px;
 
 
 }
+
+
 
 <<<<<<< HEAD
 
