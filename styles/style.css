@@ -574,6 +574,75 @@ margin-left: -12px;
 .facebookLogo{
 margin-left: 35px;
 margin-top: 12px;
+
+
+float: left;
+padding-right: 10px;
+line-height: 20px;
+}
+
+.contactFooter{
+
+	width:960px;
+	margin:0px auto;
+
+}
+
+.twitterLogo{
+padding-top: 5px;
+}
+
+#footContainer{
+
+margin: 0px auto;
+width: 960px;
+
+}
+
+#twitter_logo a.twitter_logo {
+    background: url('../images/twitter_logo_sprite.png') no-repeat scroll 0 0 transparent;
+}
+
+#twitter_logo a, #twitter_logo .search {
+    display: block;
+    height: 40px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 43px;
+}
+
+
+
+#twitter_logo a.twitter_logo{background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 0; }
+#twitter_logo a.twitter_logo:hover{ background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 -36px; }
+#twitter_logo a.twitter_logo:active{ background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 -36px; }
+
+
+
+#facebook_logo a.facebook_logo {
+    background: url('../images/facebook_logo_sprite.png') no-repeat scroll 0 0 transparent;
+}
+
+#facebook_logo a, #facebook_logo .search {
+    display: block;
+    height: 36px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 43px;
+}
+
+
+
+#facebook_logo a.facebook_logo{background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 0; }
+#facebook_logo a.facebook_logo:hover{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
+#facebook_logo a.facebook_logo:active{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
+
+
+#facebook_logo{
+
+margin-left: 4px;
+
+
 }
 
 <<<<<<< HEAD
@@ -597,26 +666,4 @@ margin-top: 12px;
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {}
 =======
-float: left;
-padding-right: 10px;
-line-height: 20px;
-}
-
-.contactFooter{
-
-	width:960px;
-	margin:0px auto;
-
-}
-
-.twitterLogo{
-padding-top: 5px;
-}
-
-#footContainer{
-
-margin: 0px auto;
-width: 960px;
-
-}
 >>>>>>> contact page updates
