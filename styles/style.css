@@ -3,8 +3,8 @@
 	}
 	
 body {
-	margin: 0px;
-	width: 100%;
+	margin: 0px auto;
+	width: 960px;
 	font-family: 'Oswald', sans-serif;
 	}
 
@@ -103,6 +103,7 @@ p {
 	margin-top: 38px;
 	background-color: none;
 	}
+
 
 
 
