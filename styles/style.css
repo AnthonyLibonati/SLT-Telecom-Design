@@ -525,15 +525,16 @@ margin-left: 690px;
 
 
 #contact_content{
-
+width: 100%;
 border-top: solid #d2232a 4px;
-
+/*background-color: yellow;*/
 }
 
 .contactInfo{
 width: 300px;
 padding-top: 10px;
 margin-left: 30px;
+float: left;
 
 }
 
@@ -603,9 +604,6 @@ margin-left: -12px;
 .facebookLogo{
 margin-left: 35px;
 margin-top: 12px;
-
-
-float: left;
 padding-right: 10px;
 line-height: 20px;
 }
@@ -620,6 +618,7 @@ line-height: 20px;
 .twitterLogo{
 padding-top: 5px;
 width: 40px;
+float: left;
 }
 
 #footContainer{
@@ -639,10 +638,11 @@ width: 960px;
     margin: 0;
     text-indent: -9999px;
     width: 43px;
+    /*background-color: olive;*/
 }
 
 #twitter_logo{
-
+/*background-color: blue;*/
 	float: left;
 	margin-right: 10px;
 	margin-top: 20px;
@@ -668,11 +668,7 @@ width: 960px;
     width: 38px;
 	}
 
-#facebook_logo{
 
-
-
-	}
 
 #facebook_logo a.facebook_logo{background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 0; }
 #facebook_logo a.facebook_logo:hover{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
@@ -682,7 +678,7 @@ width: 960px;
 #facebook_logo{
 
 margin-left: 4px;
-
+/*background-color: blue;*/
 
 	}
 
@@ -695,7 +691,7 @@ margin-left: 4px;
 	}
 
 .socialMediaCalls{
-
+	/*background-color: green;*/
 	float: left;
 	padding-left: 15px;
 	}
@@ -705,8 +701,44 @@ margin-left: 4px;
 line-height: 20px;
 margin-top: -3px;
 
+
 }	
 
+
+#wufoo-z7x3x5{
+
+	width: 300px;
+	float: left;
+	/*background-color: fuchsia;*/
+	
+
+}
+
+#wufooFormz7x3x5 h2{
+
+
+font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 28px;
+	line-height: 40px;
+	color: #d2232a;
+	letter-spacing: .07em;
+		
+
+}
+
+
+#facebook_logo{
+
+/*background-color: lime;*/
+
+}
+#container{
+float: left;
+/*background-color: pink;*/
+
+}
 <<<<<<< HEAD
 
 
