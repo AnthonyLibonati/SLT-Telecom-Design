@@ -81,6 +81,16 @@ p {
 	margin-bottom: 10px;
 	}
 
+
+
+.floatLeft{
+
+	float: left;
+	
+	}
+
+
+
 /* END STYLE GUIDE */
 
 #container{
@@ -609,6 +619,7 @@ line-height: 20px;
 
 .twitterLogo{
 padding-top: 5px;
+width: 40px;
 }
 
 #footContainer{
@@ -630,6 +641,12 @@ width: 960px;
     width: 43px;
 }
 
+#twitter_logo{
+
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
 
 
 #twitter_logo a.twitter_logo{background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 0; }
@@ -640,17 +657,22 @@ width: 960px;
 
 #facebook_logo a.facebook_logo {
     background: url('../images/facebook_logo_sprite.png') no-repeat scroll 0 0 transparent;
-}
+    clear: both;
+	}
 
 #facebook_logo a, #facebook_logo .search {
     display: block;
     height: 36px;
     margin: 0;
     text-indent: -9999px;
-    width: 43px;
-}
+    width: 38px;
+	}
+
+#facebook_logo{
 
 
+
+	}
 
 #facebook_logo a.facebook_logo{background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 0; }
 #facebook_logo a.facebook_logo:hover{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
@@ -662,9 +684,28 @@ width: 960px;
 margin-left: 4px;
 
 
-}
+	}
+
+#facebook_logo_sprite{
+
+	width: 40px;
+	float: left;
 
 
+	}
+
+.socialMediaCalls{
+
+	float: left;
+	padding-left: 15px;
+	}
+	
+.contact p{
+
+line-height: 20px;
+margin-top: -3px;
+
+}	
 
 <<<<<<< HEAD
 
