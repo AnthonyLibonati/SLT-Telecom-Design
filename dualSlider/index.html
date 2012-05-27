@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>dualSlider</title>
+        
+    <meta name="description" id="MetaDescription" content="" />
+    <meta name="keywords" id="MetaKeywords" content="" />
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<meta name="language" content="en" />
+	
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/clearfix.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/fonts.css"  />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.dualSlider.0.2.css" />
+
+	<script src="scripts/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="scripts/jquery.timers-1.2.js" type="text/javascript"></script>
+	<script src="scripts/jquery.dualSlider.0.3.min.js" type="text/javascript"></script>
+
+
+	<script type="text/javascript">
+		
+		$(document).ready(function() {
+			
+			$(".carousel").dualSlider({
+				auto:true,
+				autoDelay: 6000,
+				easingCarousel: "swing",
+				easingDetails: "easeOutBack",
+				durationCarousel: 1000,
+				durationDetails: 600
+			});
+			
+		});
+		
+		
+	</script>
+	
+	
+</head>
+
+<body>
+	
+	<div class="wrapper clearfix">
+		
+		<a href="dualSlider.zip" title="Download demo package" class="Lexia-Regular download">Download dualSlider<em>Demo pack (version 0.3)</em></a>
+		
+		<h1 class="Lexia-Bold">dualSlider //</h1>
+		<h2 class="Lexia-Regular">When one animation just isn't enough...<a href="mailto:rob@hugoandcat.com" title="problems?">Problems/Feature requests</a></h2>
+
+		<div class="columns clearfix">
+		
+			<div class="col c_1">
+				<h3 class="Lexia-Regular">dualSlider options</h3>
+				<p>
+					auto:true,<br />
+					autoDelay: 6000,<br />
+					easingCarousel: "swing",<br />
+					easingDetails: "easeOutBack",<br />
+					durationCarousel: 1000,<br />
+					durationDetails: 600
+				</p>
+			</div><!-- /c_1 -->
+			
+			<div class="col c_2">
+				<h3 class="Lexia-Regular">Dependencies</h3> 
+				<p> 
+					<a href="http://jquery.com/" title="Visit site" target="_blank">jquery.1.3.2.js</a><br />
+					<a href="http://gsgd.co.uk/sandbox/jquery/easing/" title="Visit site" target="_blank">jquery.easing.1.3.js</a><br />
+					<a href="http://plugins.jquery.com/project/timers" title="Visit site" target="_blank">jquery.timers-1.2.js</a>
+				</p>
+			</div><!-- /c_2 -->
+			
+			
+			<div class="col c_3">
+				<h3 class="Lexia-Regular">Downloads</h3> 
+				<p>
+					<a href="scripts/jquery.dualSlider.0.3.js" title="Download">jquery.dualSlider.0.3.js</a><br />
+					<a href="scripts/jquery.dualSlider.0.3.min.js" title="Download">jquery.dualSlider.0.3.min.js</a>
+					<a href="css/jquery.dualSlider.0.3.css" title="Download">jquery.dualSlider.0.3.css</a>
+				</p>
+			</div><!-- /c_3 -->
+			
+			<div class="col c_4">
+				<h3 class="Lexia-Regular">Changelog</h3> 
+				
+				<p> 
+					<strong>0.2</strong> - Tested and fixed for IE6+, auto loops, manual pause/play controls<br />
+				
+					<strong>0.3</strong> - Now with seamless looping!
+				</p> 
+			</div><!-- /c_4 -->
+		
+		</div><!-- /columns -->
+		
+		<h3 class="Lexia-Regular">dualSlider demo</h3>
+		<p>As you can see pretty much any html can go in the panels from your CMS, you just need to format them with CSS</p>
+		
+		<div class="carousel clearfix">
+
+			<div class="panel">
+				
+				<div class="details_wrapper">
+					
+					<div class="details">
+					
+						<div class="detail">
+							<h2 class="Lexia-Bold"><a href="#">Dolor sit amet</a> Cum sociis natoque penatibus et magnis dis parturient montes</h2>
+							<a href="#" title="Read more" class="more">Read more</a>
+						</div><!-- /detail -->
+						
+						<div class="detail">
+							<h2 class="Lexia-Bold"><a href="#">Lorem ipsum dolor</a> sit amet, consectetuer adipiscing elit. </h2>
+							<a href="#" title="Read more" class="more">Read more</a>
+						</div><!-- /detail -->
+						
+						<div class="detail">
+							<h2 class="Lexia-Bold"><a href="#">Aenean massa</a>. Cum sociis natoque penatibus et magnis dis parturient montes</h2>
+							<a href="#" title="Read more" class="more">Read more</a>
+						</div><!-- /detail -->
+						
+					
+					</div><!-- /details -->
+					
+				</div><!-- /details_wrapper -->
+				
+				<div class="paging">
+					<div id="numbers"></div>
+					<a href="javascript:void(0);" class="previous" title="Previous" >Previous</a>
+					<a href="javascript:void(0);" class="next" title="Next">Next</a>
+				</div><!-- /paging -->
+				
+				<a href="javascript:void(0);" class="play" title="Turn on autoplay">Play</a>
+				<a href="javascript:void(0);" class="pause" title="Turn off autoplay">Pause</a>
+				
+			</div><!-- /panel -->
+	
+			<div class="backgrounds">
+				
+				<div class="item item_1">
+					<object width="604" height="340"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=10930565&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=10930565&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="604" height="340" wmode="transparent"></embed></object>
+				</div><!-- /item -->
+				
+				<div class="item item_2">
+					<object width="604" height="340"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=12257932&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=12257932&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="604" height="340" wmode="transparent"></embed></object>
+				</div><!-- /item -->
+				
+				<div class="item item_3">
+					
+				</div><!-- /item -->
+				
+			</div><!-- /backgrounds -->
+			
+			
+		</div><!-- /carousel --> 
+		
+		
+		<h3 class="Lexia-Regular">A little bit of documentation</h3>
+		<p>
+			It's fairly simple to get this going, just copy and paste markup from this file if need be.
+		</p>
+		
+		<div class="documentation">
+			
+			<p class="alt clearfix">
+				<strong class="Lexia-Regular">01.</strong>
+				<span>The easiest thing you can do is <a href="dualSlider.zip" title="Download demo package">download</a> the quick start pack and modify as you wish :)</span>
+			</p>
+			
+			<p class="clearfix">
+				<strong class="Lexia-Regular">02.</strong>
+				<span>If you don't want to do that then you can take the elements individually and build them into an existing site.  Start by getting all of the dependant files that are listed up top, including dualSlider.</span>
+			</p>
+			
+			<p class="alt clearfix">
+				<strong class="Lexia-Regular">03.</strong>
+				<span>You will also need some CSS to get this going, or it won't work at all.  To get started just copy it from <a href="css/jquery.dualSlider.0.3.css" title="Download">jquery.dualSlider.0.3.css.</a></span>
+			</p>
+			
+			
+			<p class="clearfix">
+				<strong class="Lexia-Regular">04.</strong>
+				<span>Now include all of these files in the &lt;head&gt; of your html document	.</span>
+			</p>
+			
+			<p class="alt clearfix">
+				<strong class="Lexia-Regular">05.</strong>
+				<span>Once this is all done you need to get the markup onto the page, you can view the source of this document to get an idea of how that works, it can either be static or come out of a database, but thats up to you.  If it's out of a database no worries, the paging is built dynamically by the plugin.</span>
+			</p>
+			
+			
+			<p class="clearfix">
+				<strong class="Lexia-Regular">06.</strong>
+				<span>Initialise the plugin as per previously given, view source for an example.</span>
+			</p>
+			
+			
+			<p class="clearfix">
+				<strong class="Lexia-Regular">07.</strong>
+				<span>and relax...</span>
+			</p>
+
+			
+		</div><!-- /documentation -->
+		
+		
+		
+	</div><!-- /wrapper -->
+	
+</body>
+
+</html>
