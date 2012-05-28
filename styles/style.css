@@ -339,6 +339,11 @@ color: white;
 padding-left: 30px
 }
 
+
+#slide_wrap #text a:hover {
+	color: #cccccc;
+	}
+
 /* END PRODUCTS PAGE */
 
 /* START WHO WE ARE PAGE */
@@ -965,6 +970,13 @@ height: 200px;
 
 
  height: 80px;}
+
+.Lexia-Regular{
+
+	color: white;
+
+
+}	
 
 
 <<<<<<< HEAD
