@@ -495,7 +495,7 @@ margin-top: -10px;
 #content{
 margin-top: 0px;
 background-color:  #d2232a;
-height: 400px;
+min-height: 400px;
 clear: both;
 display: block;
 
@@ -978,6 +978,80 @@ height: 200px;
 
 }	
 
+
+
+.active{
+
+	
+
+	}
+	
+#testimonial_1{
+
+	width: 500px;
+	height: auto;
+	background-color: blue;
+	
+	text-color: white;
+	}
+
+.testimonial h5{
+
+cursor: pointer;
+
+
+}
+
+.testimonial p{
+
+color: white;
+
+}
+
+.house{
+
+display:none;
+
+}
+
+#textbox{
+	letter-spacing: .04em;
+	width: 700px;
+	margin: 10px 0 0 20px;
+	}
+
+.pullquote{
+
+	background-color: white;
+	width: 300px;
+	height: auto;
+	padding: 10px;
+	margin: -90px 0 0 10px;
+	
+	}
+	
+	#content h5:hover {
+	color: #cccccc;
+	}
+	
+	#content h3{
+	
+	
+	}
+
+	.hide-wrapper{
+	padding: 20px 0 20px 0;
+	width: 300px;
+	margin-left: 70px;
+	
+	}
+	
+	.quote{
+	
+	margin-top: 50px;
+	margin-left: 10px;
+	
+	}
 
 <<<<<<< HEAD
 
