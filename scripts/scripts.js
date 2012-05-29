@@ -30,10 +30,36 @@ opacity: 0
 
 
   
+$(function(){
+
+$('.controls li').click(function() {
+   
+      //get the class of whatever is clicked on
+   var my_value=  $(this).attr('class'); 
+      //hide all slides that don't have initial class
+ $('#slide_wrap .slide').removeClass('show');
+      //find the relating class within the slides
+ 
+      //add show to the relating class that was clicked on
+	$('#slide_wrap .'+my_value).addClass('show'); 
+//alert(target_slide);
+         
+       
+          
+          
+
+    
+          
+    });
+
+});
 
 
 
-	
+	$('#clickme').click(function() {
+    $('span',this).toggle();
+});
+
 	
 
 
