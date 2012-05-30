@@ -14,8 +14,8 @@ H1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
-	font-size: 48px;
-	line-height: 48px;
+	font-size: 3.7em;
+	line-height: 1.2em;
 	color: White;
 	background: #d2232a;
 	letter-spacing: .08em;
@@ -25,18 +25,18 @@ H2 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	text-decoration: none;
-	font-size: 40px;
-	line-height: 56px;
+	font-size: 3.1em;
+	line-height: 1.39em;
 	color: #d2232a;
-	margin-bottom: 10px;
+	margin-bottom: .25em;
 	}
 
 H3 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	text-decoration: none;
-	font-size: 28px;
-	line-height: 40px;
+	font-size: 2.15em;
+	line-height: 1.43em;
 	color: #d2232a;
 	letter-spacing: .07em;
 	}
@@ -45,7 +45,7 @@ H4 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.55em;
 	color: #d2232a;
 	}
 	
@@ -54,8 +54,8 @@ H5 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	text-decoration: none;
-	font-size: 18px;
-	line-height: 36px;
+	font-size: 1.39em;
+	line-height: 2em;
 	color: #d2232a;
 	}
 	
@@ -64,8 +64,8 @@ H6 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
-	font-size: 18px;
-	line-height: 36px;
+	font-size: 1.39em;
+	line-height: 2.2em;
 	color: #d2232a;
 	}
 
@@ -75,10 +75,10 @@ p {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	text-decoration: none;
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 1.08em;
+	line-height: 1.71em;
 	color: #d2232a;
-	margin-bottom: 10px;
+	margin-bottom: .72em;
 	}
 
 
