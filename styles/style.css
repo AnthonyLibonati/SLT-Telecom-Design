@@ -403,7 +403,11 @@ padding-left: 30px
 #whatWeDo H4 {
 	margin-bottom: 5px;
 	}
-	
+
+#missionStatement br {
+	margin: 20px;
+	}
+
 /* END WHO WE ARE PAGE */
 
 /* START FOOTER */
