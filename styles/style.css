@@ -247,6 +247,7 @@ color: white;
 	.products #text{
 
 	width:540px;
+	min-height:180px;
 
 	
 	}
