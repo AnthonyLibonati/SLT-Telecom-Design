@@ -1032,7 +1032,7 @@ display:none;
 	width: 300px;
 	height: auto;
 	padding: 10px;
-	margin: -90px 0 0 10px;
+	margin: -80px 0 0 10px;
 	
 	}
 	
@@ -1070,7 +1070,7 @@ display: block;
 
 }
 
-.testimonial h4{
+.testimonial h1{
 
 margin-left: 70px;
 color: white;
