@@ -982,8 +982,19 @@ display:none;
 #textbox{
 	letter-spacing: .04em;
 	width: 700px;
-	margin: 10px 0 0 20px;
+	margin: 10px 0 0 30px;
+	height: auto;
+	background-color: red;
 	}
+
+
+.active#textbox{
+	
+	height: auto;
+	
+	}
+
+
 
 .pullquote{
 
@@ -1009,7 +1020,7 @@ display:none;
 	padding: 20px 0 20px 0;
 	width: 300px;
 	margin-left: 70px;
-	
+	position: relative;
 	}
 	
 	.quote{
@@ -1026,6 +1037,7 @@ background-color:  #d2232a;
 min-height: 400px;
 clear: both;
 display: block;
+position: relative;
 
 }
 
@@ -1058,6 +1070,52 @@ padding-left: 10px;
 	display:none;
 
 	}
+	
+	
+	#slideshow{
+	
+	height:auto;
+	width: 300px;
+	
+	}
+	
+	#slideNav {
+	
+	z-index: 50;
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	
+		}
+		
+		
+	#slideNav a{
+	
+	margin: 0 3px;
+	padding: 3px 3px;
+	background: #cff;
+	text-decoration: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+	
+	}	
+
+
+#slideNav a.activeSlide {
+
+background: #aaf;
+
+}
+
+#slideNav a:focus {
+
+	outline: none;
+
+
+	}
+
 
 <<<<<<< HEAD
 

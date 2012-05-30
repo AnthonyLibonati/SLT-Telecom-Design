@@ -74,4 +74,20 @@ $(".hide-wrapper #clickme").click(function () {
           $(parent_target).addClass('active');     }
 });  
 
+//testimonial slide show
+
+$('#slideshow').cycle({
+	fx: 'fade',
+	speed: 'slow',
+	timeout: 0,
+	pager: '#slideNav',
+	slideExpr: '.hide-wrapper'
+
+
+});
+
+
+
+
+
 });// end document ready
