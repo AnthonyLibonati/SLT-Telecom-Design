@@ -4,7 +4,6 @@
 	
 body {
 	margin: 0px auto;
-	width: 960px;
 	font-family: 'Oswald', sans-serif;
 	}
 
@@ -85,17 +84,11 @@ p {
 .wwcd{
 margin-left: 20px;
 color: white;
-
-
 }
 
-
 .floatLeft{
-
 	float: left;
-	
 	}
-
 
 
 /* END STYLE GUIDE */
@@ -103,21 +96,12 @@ color: white;
 #container{
 	background-color: none;
 	margin: 0 auto;
-	width: 960px;
 	}
 
 #header{
 	margin-top: 38px;
 	background-color: none;
 	}
-
-
-
-
-
-
-
-
 
 /* START SERVICES PAGE */
 
@@ -127,18 +111,15 @@ color: white;
 	}
 
 #servicesIntro H1{
-	width: 900px;
 	}	
 
 #servicesIntro H3{
 	color: White;
-	width: 900px;
 	}	
 
 #tv {
 	padding: 10px;
 	border-bottom: solid 2px #d2232a;
-	height: 300px;
 	}
 
 #tv img{
@@ -171,7 +152,6 @@ color: white;
 #internet {
 	padding: 10px;
 	border-bottom: solid 2px #d2232a;
-	height: 270px;
 	}
 
 #internet .text{
@@ -199,7 +179,6 @@ color: white;
 
 #phone {
 	padding: 10px;
-	height: 250px;
 	}
 
 #phone .text{
@@ -236,37 +215,31 @@ color: white;
 #productsIntro {
 	background-color: #d2232a;
 	padding: 30px 0 30px 0;
-	width: 960px;
 	}
 	
-	#productsIntro h3{
+#productsIntro h3{
 	color: White;
 	padding-left: 30px;
 	}
 	
-	.products #text{
-
+.products #text{
 	width:540px;
 	min-height:180px;
-
-	
 	}
 	
-	#slide_wrap #text{
+#slide_wrap #text{
 	padding:20px 0 0 40px;
 	border-left: solid 1px #d2232a; 
 	float:right;
-	
 	}
 	
-	.photo{
-		float:left;
-		width:300px;
-		height:200px;
-	
+.photo{
+	float:left;
+	width:300px;
+	height:200px;
 	}
 	
-	li.slide1, li.slide2, li.slide3 {
+li.slide1, li.slide2, li.slide3 {
 	font-family:'Oswald', sans-serif;
 	font-weight:700;
 	text-decoration:none;
@@ -274,11 +247,9 @@ color: white;
 	color:#d2232a;
 	text-decoration:none;
 	cursor:pointer;
-	
-
 	}
 	
-	#slide_wrap #text a{
+#slide_wrap #text a{
 	display: block;
 	padding: 10px;
 	width: 70px;
@@ -288,58 +259,45 @@ color: white;
 	float: right;
 	}
 	
-	#slide_wrap {
+#slide_wrap {
 	padding:10px;
 	border-bottom: solid 2px #d2232a;
 	height: 300px;
 	}
 	
-	
-	
-	#slide_wrap .slide{
+#slide_wrap .slide{
 	display:none;
 	}
 						
-						
-						
-	#slide_wrap .slide.show{
+#slide_wrap .slide.show{
 	display:block;
 	}
 	
-						
-	
- .controls{
+.controls{
 	width:540px;
 	height:50px;
 	display:block;
 	margin:10px 0 20px 30px;
 	}
 	
-	 
-
-
-	
-	ul{
+ul{
     margin: 0 auto;
     padding: 0;
 	}
 
- ul.products_nav li{
+ul.products_nav li{
     text-align: left;
-    
     float: left;
     list-style: none;
     padding: 3px 50px 3px 0px;
     margin: 5px;
     border: none;
     color: #d2232a;
-  
 	}
 
 .products h1{
-padding-left: 30px
-}
-
+	padding-left: 30px
+	}
 
 #slide_wrap #text a:hover {
 	color: #cccccc;
@@ -415,20 +373,19 @@ padding-left: 30px
 #footer {
 	display: block;
 	background: #d2232a;
-	height: 35px;
 	margin: 50px 0px 0px 0px;
 	float: left
 	}
 
 #footer ul {
-	margin: 8 0 0 0px;
+	margin: 8 0 10 0px;
 	list-style: none;
 	}
 	
 #footer li {
 	color: White;
 	float: left;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 20px;
 	list-style: none;
 	}
 	
@@ -445,7 +402,7 @@ padding-left: 30px
 
 #footer-nav {
 	float: right;
-	margin: 5px 20px 0px 0px ;
+	margin: 5px 20px 10px 0px ;
 	}
 	
 #footer p {
@@ -453,9 +410,7 @@ padding-left: 30px
 	color: White;
 	margin: 4px 0px 0px 20px;
 	font-size: 10px;
-	
 	}
-	
 
 /* END FOOTER */
 
@@ -1114,13 +1069,23 @@ padding-left: 10px;
   @media only screen and (max-width: 959px) {}
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container_12 {
+  	margin: 0 auto;
+  	width: 700px;
+	}
+}
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {}
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container_12 {
+  	margin: 0 auto;
+  	width: 460px;
+	}
+  }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {}
