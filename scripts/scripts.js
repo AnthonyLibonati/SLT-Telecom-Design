@@ -57,7 +57,7 @@ $('.controls li').click(function() {
 
 
 	$('#clickme').click(function() {
-    $('span',this).toggle();
+    $('div',this).toggle();
 });
 
 	
