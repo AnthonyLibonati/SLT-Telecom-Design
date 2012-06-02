@@ -316,29 +316,29 @@ ul.products_nav li{
 
 #where {
 	margin-top: 40px;
-	width: 410px;
 	display: block;
 	float: left;
 	}
 
 #whereWeDoIt {
 	background-color: #d2232a;
-	padding: 30px;
-	width: 410px;
 	}
 	
 #whereWeDoIt H4 {
 	color: white;
 	margin-top: 24px;
 	margin-bottom: 5px;
+	margin: 24px 30px 5px 30px;
 	}
 	
 #whereWeDoIt p {
 	color: white;
+	margin: 0px 30px 30px 30px;
 	}	
 	
 #whereWeDoIt img {
-	width: 100%;
+	width: 400px;
+	margin: 30px;
 	}
 	
 #whatWeDo {
@@ -407,7 +407,6 @@ ul.products_nav li{
 
 /* navigation */
 
-
 ul.nav li{
     float: left;
     text-align: left;
@@ -425,7 +424,7 @@ ul.nav li{
 
 a.nav:link {text-decoration:none; color: #d2232a;}
 a.nav:visited {text-decoration:none; color: #d2232a;}
-a.nav:hover {text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
+a.nav:hover {text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a; color: #cccccc;}
 a.nav:active {text-decoration:none;}
 
 #home_button{
@@ -993,17 +992,19 @@ margin: 30px 0 0 40px;
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-  .container_12 {
-  	margin: 0 auto;
-  	width: 700px;
-	}
-}
+	#whereWeDoIt img {
+		width: 305px;
+		}
+  }
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {}
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* START HEADER NAV */
+
 	ul.nav li{
 		float: left;
 		text-align: left;
@@ -1017,6 +1018,10 @@ margin: 30px 0 0 40px;
 		font-size: 85%;
 		letter-spacing: .08em;
 		}
+		
+	/* END HEADER NAV */
+
+	/* START SERVICES PAGE */
 		
 	#phone .text{
 		margin-bottom: 20px;
@@ -1057,7 +1062,23 @@ margin: 30px 0 0 40px;
 	#phone a.phone_products {
 		margin-right: 0px;
 		}
+
+	/* END SERVICES PAGE */
+
+	/* START WHO WE ARE PAGE */
+
+	#whereWeDoIt img {
+		width: 360px;
+		}
 	
+	#whatWeDo {
+		border-bottom: solid 2px #d2232a;
+		}
+	
+	/* END WHO WE ARE PAGE */
+
+	/* START FOOTER */
+
 	#footer li {
 		margin: 0 0 0 16px;
 		}
@@ -1065,7 +1086,9 @@ margin: 30px 0 0 40px;
 	#footer p {
 		margin: 5px 0px 0px 160px;
 		}
-		
+
+	/* START FOOTER */
+
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
