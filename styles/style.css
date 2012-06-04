@@ -252,8 +252,8 @@ li.slide1, li.slide2, li.slide3 {
 	
 #slide_wrap {
 	padding:10px;
-	border-bottom: solid 2px #d2232a;
-	height: 300px;
+	
+	height: 200px;
 	}
 	
 #slide_wrap .slide{
