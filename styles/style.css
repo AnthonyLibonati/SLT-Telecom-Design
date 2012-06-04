@@ -221,6 +221,9 @@ p {
 	.products #text2{
 	width:540px;
 	min-height:180px;
+	padding:20px 0 0 40px;
+	border-left: solid 1px #d2232a; 
+	float:right;
 	}
 	
 #slide_wrap #text{
