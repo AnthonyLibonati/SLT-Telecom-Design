@@ -214,6 +214,11 @@ p {
 	}
 	
 .products #text{
+	width:620px;
+	min-height:180px;
+	}
+	
+	.products #text2{
 	width:540px;
 	min-height:180px;
 	}
