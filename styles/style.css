@@ -427,7 +427,7 @@ ul.nav li{
     border: none;   
     background-color: none;
     font-size: 90%;
-    letter-spacing: .08em;
+    letter-spacing: .03em;
 	}
 
 a.nav:link {text-decoration:none; color: #d2232a;}
@@ -442,7 +442,7 @@ a.nav:active {text-decoration:none;}
 .current_page{text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #d2232a;}
 
 #logo{
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	margin-top: 10px;
 	}
 
@@ -890,7 +890,7 @@ margin: 30px 0 0 40px;
 	width: 700px;
 	margin: 10px 0 0 30px;
 	height: auto;
-	background-color: red;
+	
 	}
 
 
@@ -920,7 +920,7 @@ margin: 30px 0 0 40px;
 	padding: 20px 0 20px 0;
 	width: 300px;
 	margin-left: 70px;
-	position: relative;
+	position: relative !important;
 	}
 	
 .quote{
@@ -961,7 +961,7 @@ margin: 30px 0 0 40px;
 	}
 	
 #slideshow{	
-	height:auto;
+	height:auto !important;
 	width: 300px;
 	}
 	

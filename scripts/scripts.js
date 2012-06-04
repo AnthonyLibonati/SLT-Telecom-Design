@@ -79,7 +79,7 @@ $(".hide-wrapper #clickme").click(function () {
 $('#slideshow').cycle({
 	fx: 'fade',
 	speed: 'slow',
-	timeout: 5000,
+	timeout: 0,
 	pager: '#slideNav',
 	slideExpr: '.hide-wrapper'
 
