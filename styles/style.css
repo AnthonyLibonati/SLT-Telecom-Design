@@ -119,12 +119,13 @@ p {
 
 #tv img{
 	display: block;
+	margin-bottom: 30px;
 	}
 
 #tv a{
 	display: block;
 	padding: 10px;
-	width: 70px;
+	width: 90px;
 	background: #d2232a;
 	color: White;
 	text-decoration: none;
@@ -160,7 +161,7 @@ p {
 #internet a{
 	display: block;
 	padding: 10px;
-	width: 70px;
+	width: 90px;
 	background: #d2232a;
 	color: White;
 	text-decoration: none;
@@ -187,7 +188,7 @@ p {
 #phone a{
 	display: block;
 	padding: 10px;
-	width: 70px;
+	width: 90px;
 	background: #d2232a;
 	color: White;
 	text-decoration: none;
@@ -214,14 +215,12 @@ p {
 	}
 	
 .products #text{
+	width:620px;
 	min-height:180px;
 	}
 	
 .products #text2{
-<<<<<<< HEAD
 	width:540px;
-=======
->>>>>>> Header and footer work
 	min-height:180px;
 	padding:20px 0 0 40px;
 	border-left: solid 1px #d2232a; 
@@ -232,6 +231,12 @@ p {
 	padding:20px 0 0 40px;
 	border-left: solid 1px #d2232a; 
 	float:right;
+	}
+	
+.photo{
+	float:left;
+	width:300px;
+	height:200px;
 	}
 	
 li.slide1, li.slide2, li.slide3 {
@@ -259,6 +264,8 @@ li.slide1, li.slide2, li.slide3 {
 	}
 	
 #slide_wrap {
+	padding:10px;
+	
 	height: 200px;
 	}
 	
@@ -271,6 +278,7 @@ li.slide1, li.slide2, li.slide3 {
 	}
 	
 .controls{
+	
 	height:50px;
 	display:block;
 	margin:10px 0 20px 0px;
@@ -448,17 +456,25 @@ a.nav:active {text-decoration:none;}
 /* home page */
 
 #content{
-	margin-top: 0px;
 	background-color:  #d2232a;
-	height: 400px;
 	clear: both;
 	display: block;
 	}
 
+<<<<<<< HEAD
 
-
+=======
 #home_small_quote{
 	margin-top: 10px;
+	}
+
+#homeWrap {
+	padding: 30px;
+	}
+>>>>>>> Home Page Work
+
+#homeWrap H3{
+	color: White;
 	}
 
 .contact_house{
@@ -1009,7 +1025,7 @@ margin: 30px 0 0 40px;
 		margin: 25px 9px 0px 0px;
 		border: none;   
 		background-color: none;
-		font-size: 65%;
+		font-size: 68%;
 		letter-spacing: .08em;
 		}
 		
@@ -1059,13 +1075,6 @@ margin: 30px 0 0 40px;
 
 	/* END SERVICES PAGE */
 
-
-	#slide_wrap img{
-		margin-left: 0px;
-		}
-
-
-
 	/* START WHO WE ARE PAGE */
 
 	#whereWeDoIt img {
@@ -1081,8 +1090,7 @@ margin: 30px 0 0 40px;
 	/* START FOOTER */
 
 	#footer li {
-		width: 80px;
-		margin: 0px 0px 0px 20px;
+		margin: 0 0 0 16px;
 		}
 		
 	#footer p {
