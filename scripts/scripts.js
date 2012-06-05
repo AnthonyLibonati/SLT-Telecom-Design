@@ -2,57 +2,13 @@ $(document).ready(function(){
 
 
 
- $(function() {
-// OPACITY OF BUTTON SET TO 0%
-$(".contact_bubble").css("opacity","0");
- 
-// ON MOUSE OVER
-$(".contact_bubble").hover(function () {
- 
-// SET OPACITY TO 100%
-$(this).stop().animate({
-opacity: 1.0
-}, "200");
-},
- 
-// ON MOUSE OUT
-function () {
- 
-// SET OPACITY BACK TO 0%
-$(this).stop().animate({
-opacity: 0
-}, "200");
-});
-}); 
 
-
-
-
-
-  
-$(function(){
-
-$('.controls li').click(function() {
-   
-      //get the class of whatever is clicked on
-   var my_value=  $(this).attr('class'); 
-      //hide all slides that don't have initial class
- $('#slide_wrap .slide').removeClass('show');
-      //find the relating class within the slides
- 
-      //add show to the relating class that was clicked on
-	$('#slide_wrap .'+my_value).addClass('show'); 
-//alert(target_slide);
-         
-       
-          
-          
-
-    
-          
-    });
-
-});
+		
+	$(document).ready(function() {
+   $("a").click(function() {
+     alert("Hello world!");
+   });
+ });
 
 
 
@@ -85,9 +41,5 @@ $('#slideshow').cycle({
 
 
 });
-
-
-
-
 
 });// end document ready

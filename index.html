@@ -15,8 +15,16 @@
 		<script type="text/javascript" src="scripts/scripts.js"></script>
 		<script type="text/javascript" src="http://use.typekit.com/upo8qja.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		
-	</head>
+				
+			<script type="text/javascript">
+	$(document).ready(function() {
+   $("a").click(function() {
+     alert("Hello world!");
+   });
+ });
+</script>
+				
+		</head>
 	
 	<body class="home container">
 	
@@ -31,7 +39,7 @@
 				<div id="nav">
 				
 				<ul class="nav">
-    				<li><a href="index.html" class="nav current_page"><img src="images/home-button.png" id="home_button"></a></li>
+    				<li><a href="index.html" class="nav current_page"><img src="images/home-button.png" id="home_button" class="img-swap"></a></li>
     				<li><a href="who_we_are.html" class="nav">WHO WE ARE</a></li>
     				<li><a href="services.html" class="nav">SERVICES</a></li>
    					<li><a href="products.html" class="nav">PRODUCTS</a></li>
@@ -55,9 +63,9 @@
 						<h3 class="nine columns alpha">SLT are audio, video & satellite experts who specialize in customer service.</h3>
 						</div><!--end text-->
 						
-						<div id="contact" class="">
-						<a href="contact.html"><img src="images/white_house.png" class="contact_house "/></a>
-						<a href="contact.html"><img src="images/contact_bubble.png" class="contact_house contact_bubble"/></a>
+					<div id="contact">
+						<a href="contact.html"><img src="images/white_house.png" class="contact_house"/></a>
+						<a href="contact.html"><img src="images/contact_bubble.png" class="contactBubble"/></a>
 			
 					</div><!--end contact-->
 				
