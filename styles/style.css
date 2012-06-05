@@ -105,15 +105,14 @@ p {
 
 #servicesIntroWrap {
 	background-color: #d2232a;
-	padding: 30px 30px 35px 30px;
+	padding: 30px 30px 35px 70px;
 	margin-bottom: 35px;
 	}
-
-#servicesIntro H1{
-	}	
+	
 
 #servicesIntro H3{
 	color: White;
+	margin-bottom:10px;
 	}	
 
 #tv {
@@ -150,7 +149,7 @@ p {
 
 	
 #internet {
-	padding: 10px;
+	padding: 10px 10px 40px 10px;
 	border-bottom: solid 2px #d2232a;
 	}
 
@@ -203,6 +202,11 @@ p {
 	margin-right: 10px;
 	width: 60px;
 	}
+	
+	.upgrade{
+	
+	
+	}
 
 /* END SERVICES PAGE */
 
@@ -210,7 +214,7 @@ p {
 
 #productsIntro {
 	background-color: #d2232a;
-	padding: 30px 30px 35px 30px;
+	padding: 30px 30px 35px 40px;
 	margin-bottom: 35px;
 	}
 	
@@ -221,24 +225,16 @@ p {
 	
 
 .products #text2{
-	width:540px;
+	
 	min-height:180px;
 	padding:20px 0 0 40px;
-	border-left: solid 1px #d2232a; 
+	border-left: solid 2px #d2232a; 
 	float:right;
 	}
 	
-#slide_wrap #text{
-	padding:20px 0 0 40px;
-	border-left: solid 1px #d2232a; 
-	float:right;
-	}
+
 	
-.photo{
-	float:left;
-	width:300px;
-	height:200px;
-	}
+
 	
 li.slide1, li.slide2, li.slide3 {
 	font-family:'Oswald', sans-serif;
@@ -254,10 +250,10 @@ li.slide1, li.slide2, li.slide3 {
 	color:#cccccc;
 	}
 	
-#slide_wrap #text a{
+#slide_wrap #text2 a{
 	display: block;
 	padding: 10px;
-	width: 70px;
+	width: 90px;
 	background: #d2232a;
 	color: White;
 	text-decoration: none;
@@ -282,7 +278,7 @@ li.slide1, li.slide2, li.slide3 {
 	
 	height:50px;
 	display:block;
-	margin:10px 0 20px 0px;
+	margin:10px 0 20px 10px;
 	}
 	
 ul{
@@ -317,9 +313,14 @@ ul.products_nav li{
 	padding: 30px 30px 35px 30px;
 	margin-bottom: 35px;
 	}
+	
+	#whoText{
+
+	margin-left:40px;
+	}
 
 #whoText H3{
-	margin-top: 10px;
+
 	color: White;
 	}
 
@@ -370,6 +371,7 @@ ul.products_nav li{
 #missionStatement br {
 	margin: 20px;
 	}
+
 
 /* END WHO WE ARE PAGE */
 
@@ -460,6 +462,11 @@ a.nav:active {text-decoration:none;}
 	background-color:  #d2232a;
 	clear: both;
 	display: block;
+	}
+	
+	#intro{
+	padding-left:40px;
+	
 	}
 	
 #home_small_quote{
