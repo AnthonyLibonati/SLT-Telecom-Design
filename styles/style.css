@@ -230,7 +230,9 @@ p {
 	}
 	
 
-	
+	#slide_wrap #text2 a:hover {
+	color: #cccccc;
+	}
 
 	
 li.slide1, li.slide2, li.slide3 {
@@ -299,6 +301,12 @@ ul.products_nav li{
 
 #slide_wrap #text a:hover {
 	color: #cccccc;
+	}
+	
+	#products_button{
+	
+	margin-top: 10%;
+	
 	}
 
 /* END PRODUCTS PAGE */
@@ -808,8 +816,7 @@ a.nav:active {text-decoration:none;}
 	background-color: #d2232d;
 	cursor: pointer;
 	height: auto;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding: .70em;
 	margin-top: 20px;
 	width: 90px;
 	text-align: center;
@@ -936,10 +943,11 @@ a.nav:active {text-decoration:none;}
 	
 .testimonialColumns {
 	width: 100%;
-	margin-bottom: 12%;
+	margin-bottom: 10%;
 	min-height: 400px;
 	border-top: solid 2px #d2232a;
-        
+    margin-top: 5%;  
+      
     }
 
 
@@ -971,20 +979,31 @@ p + p {
  .testimonial_pictures{
  
  width: 50%;
- 
+ margin-top: 10%;
  margin: 115px 0 0 35px;
  
  	}
+ 	
+ 	  
+  
+ .button{
+ margin-left: 1.5em;
+ padding: 1em;
+ background-color: #d2232a;
+ }
+ 
+ a.button{
+ 
+ text-decoration: none;
+ color: white;
+ }   
+
+
+a.button:hover {
+	color: #cccccc;
+	}
     
-    .polute a{
-    
-  	 position: fixed;
-    
-    margin: 200px 0 0 -120px;
-    color: #d2232a;
-   	text-decoration: none;
-    }    
-<<<<<<< HEAD
+    <<<<<<< HEAD
 
 /* #Media Queries
 ======================================================================================= */
