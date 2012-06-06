@@ -910,9 +910,6 @@ margin: 30px 0 0 40px;
 	margin-left: 10px;
 	}
 
-.testimonial p{
-	color: white;
-	}
 
 .house{
 	display:none;
@@ -964,11 +961,12 @@ margin: 30px 0 0 40px;
 #content_testimonials{
 	margin-top: 0px;
 	background-color:  #d2232a;
-	min-height: 400px;
+	min-height: 320px;
 	clear: both;
 	display: block;
 	position: relative;
 	padding: 30px 30px 35px;
+	margin-bottom: 5%;
 	}
 
 .testimonial h1{
@@ -978,9 +976,7 @@ margin: 30px 0 0 40px;
 	letter-spacing: .05em;
 	}
 
-.testimonial h5{
-	color: white;
-		}
+
 
 
 .pullquote h3{
@@ -1021,7 +1017,43 @@ margin: 30px 0 0 40px;
 #slideNav a:focus {
 	outline: none;
 	}
+	
+	.button_testimonial p{
+	color: white;
+	
+	}
+	
+	#columns {
+        width: 100%;
+       
+        height: auto;
+        border-top: solid 2px #d2232a;
+        
+    }
 
+   .column1, .column2, .column3{
+   width: 30%;
+   height: auto;
+   float: left;
+   margin: 0 1em;
+   padding-top: 5%;
+   padding-left: .2em;
+   
+   }
+   
+   .column2, .column3{
+   
+   padding-top: 11%;
+   
+   
+   }
+   p {
+  margin-bottom: 0 }
+p + p {
+  text-indent: 1.5em;
+  margin-top: 5% }
+   
+   
 <<<<<<< HEAD
 
 /* #Media Queries

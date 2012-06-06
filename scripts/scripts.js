@@ -36,7 +36,7 @@ $(document).ready(function() {
 $('#slideshow').cycle({
 	fx: 'fade',
 	speed: 'slow',
-	timeout: 0,
+	timeout: 5000,
 	pager: '#slideNav',
 	slideExpr: '.hide-wrapper'
 
