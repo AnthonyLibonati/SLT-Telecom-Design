@@ -507,9 +507,7 @@ a.nav:active {text-decoration:none;}
 	}
 
 #contact{
-
 	float: left;
-
 	}
 	
 	.contactBubble{
@@ -517,36 +515,16 @@ a.nav:active {text-decoration:none;}
 	margin: -55px 0 0 0;
 	z-index: 10;
 	}
-	
-	
-	
-	
 
-/*contact page*/
-
-.contact#container{
-	margin: 0 auto;
-	}
+/*START CONTACT PAGE*/
 
 #contact_content{
-	width: 100%;
 	border-top: solid #d2232a 4px;
-	/*background-color: yellow;*/
 	}
 
-.contactInfo{
-	padding-top: 10px;
-	float: left;
-	margin-bottom: -40px;
+#contactLeft {
+	display: block;
 	}
-
-.contactInfo h2{
-	background: white;
-	color: #d2232a;	
-	font-weight: 500;
-	font-size: 38px;
-	}
-
 
 .callAnytime{
 	padding-bottom: 0px;
@@ -577,38 +555,9 @@ a.nav:active {text-decoration:none;}
 	margin: -10px 0 0 0;
 	}
 
-.email{
-	
-	}
-
-.twitter{
-	float: left;
-	margin: 10px 10px 0 0;
-	line-height: 20px;
-	letter-spacing: .05em;
-	}
-
-.twitterLogo{
-	margin-top: 12px;
-	margin-left: -12px;
-	}
-
-.facebookLogo{
-	margin-left: 35px;
-	margin-top: 12px;
-	padding-right: 10px;
-	line-height: 20px;
-	}
-
 .contactFooter{
 	width:960px;
 	margin:0px auto;
-	}
-
-.twitterLogo{
-	padding-top: 5px;
-	width: 40px;
-	float: left;
 	}
 
 #footContainer{	
@@ -616,67 +565,40 @@ a.nav:active {text-decoration:none;}
 	width: 960px;
 	}
 
-#twitter_logo a.twitter_logo {
-    background: url('../images/twitter_logo_sprite.png') no-repeat scroll 0 0 transparent;
-	}
-
-#twitter_logo a, #twitter_logo .search {
+#twitter_logo a {
     display: block;
     height: 40px;
     margin: 0;
     text-indent: -9999px;
-    width: 43px;
-    /*background-color: olive;*/
 	}
 
-#twitter_logo{
-	/*background-color: blue;*/
-	float: left;
-	margin-right: 10px;
-	margin-top: 20px;
-	}
+#twitter_logo p{margin: 7px 0px 0px 35px; line-height: 20px;}
+#twitter_logo p:hover{color: #707070;}
+#twitter_logo p:active{color: #707070;}
 
-#twitter_logo a.twitter_logo{background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 0; }
-#twitter_logo a.twitter_logo:hover{ background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 -36px; }
-#twitter_logo a.twitter_logo:active{ background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 -36px; }
+#twitter_logo a{background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 0; }
+#twitter_logo a:hover{background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 -36px; }
+#twitter_logo a:active{background: transparent url('../images/twitter_logo_sprite.png') no-repeat 0 -36px; }
 
-#facebook_logo a.facebook_logo {
-    background: url('../images/facebook_logo_sprite.png') no-repeat scroll 0 0 transparent;
-    clear: both;
-	}
-
-#facebook_logo a, #facebook_logo .search {
+#facebook_logo a {
     display: block;
     height: 36px;
     margin: 0;
     text-indent: -9999px;
-    width: 38px;
 	}
 
-#facebook_logo a.facebook_logo{background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 0; }
-#facebook_logo a.facebook_logo:hover{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
-#facebook_logo a.facebook_logo:active{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
+#facebook_logo p{margin: 7px 0px 0px 35px; line-height: 20px;}
+#facebook_logo p:hover{color: #707070;}
+#facebook_logo p:active{color: #707070;}
 
-#facebook_logo{
-	margin-left: 4px;
-	/*background-color: blue;*/
-	}
-
-#facebook_logo_sprite{
-	width: 40px;
-	float: left;
-	}
+#facebook_logo a{background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 0; }
+#facebook_logo a:hover{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
+#facebook_logo a:active{ background: transparent url('../images/facebook_logo_sprite.png') no-repeat 0 -35px; }
 
 .socialMediaCalls{
-	/*background-color: green;*/
 	float: left;
 	padding-left: 15px;
 	}
-	
-.contact p{
-	line-height: 20px;
-	margin-top: -3px;
-	}	
 
 #wufoo-z7x3x5{
 	width: 300px;
@@ -688,14 +610,6 @@ a.nav:active {text-decoration:none;}
 
 .lynette{
 	margin-top: 8px;
-	}
-
-#facebook_logo{
-	/*background-color: lime;*/
-	}
-
-#container{
-	/*background-color: pink;*/
 	}
 
 #coverage_map{
