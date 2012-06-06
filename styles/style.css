@@ -908,6 +908,12 @@ margin: 30px 0 0 40px;
 	width: 90px;
 	text-align: center;
 	margin-left: 10px;
+	
+	}
+
+
+#clickme a{
+	text-decoration: none;	
 	}
 
 
@@ -1061,7 +1067,7 @@ p + p {
  
  width: 50%;
  
- margin: 60px 0 0 35px;
+ margin: 115px 0 0 35px;
  
  	}
     
