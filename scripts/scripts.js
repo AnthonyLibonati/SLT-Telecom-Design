@@ -94,6 +94,22 @@ $(document).ready(function() {
 
 });
 
+1
+$(document).ready(function() {
+2
+    
+3
+    $('a[href=#top]').click(function(){
+4
+        $('html, body').animate({scrollTop:0}, 'slow');
+5
+        return false;
+6
+    });
+7
+ 
+8
+});
 
 
 

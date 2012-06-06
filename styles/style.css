@@ -1071,6 +1071,14 @@ p + p {
  
  	}
     
+    .polute a{
+    
+  	 position: fixed;
+    
+    margin: 175px 0 0 -120px;
+    color: #d2232a;
+   	text-decoration: none;
+    }    
 <<<<<<< HEAD
 
 /* #Media Queries
