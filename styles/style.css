@@ -1020,11 +1020,82 @@ a.button:hover {
 	#red_house{
 		margin: 0px 0 -50px 600px;
 		}
-	
-  }
+	#content_testimonials{
   
+  
+height: 320px;
+ 
+  }
+
+  H2 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 2.7em;
+    font-weight: 300;
+    line-height: 1.39em;
+    margin-bottom: 0.25em;
+    text-decoration: none;
+}
+  
+  .testimonial h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    margin-left: 40px;
+    font-size: 2.7em;
+}
+
+
+
+.testimonialColumns {
+	width: 100%;
+	margin-bottom: 10%;
+	height: auto;
+	border-top: solid 2px #d2232a;
+    margin-top: 5%;  
+      
+    }
+
+
+
+
+   .column1, .column2, .column3{
+   width: 27%;
+   height: auto;
+   float: left;
+   margin: 0 1em;
+   padding-top: 5%;
+   padding-left: .2em;
+   border-bottom: solid 1px transparent;
+   
+   }
+   
+   .column2, .column3{
+   
+   padding-top: 18%;
+   
+   
+   }
+	
+  
+  }
+    
   /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {}
+  @media only screen and (max-width: 767px) {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -1138,6 +1209,64 @@ a.button:hover {
 	
 	/* END CONTACT */
 	
+	
+	#content_testimonials {
+    background-color: #D2232A;
+    clear: both;
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 0;
+    height: 400px;
+    padding: 30px 30px 35px;
+    position: relative;
+}
+	
+	.pullquote {
+    background-color: white;
+    height: auto;
+    margin: -55px 0 0 -15px !important;
+    padding: 10px;
+    width: 300px !important;
+}
+
+H2 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.39em;
+    margin-bottom: 0.25em;
+    text-decoration: none;
+}
+.testimonial h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+    font-size: 3em;
+}
+.quote{
+	margin-top: 15px;
+	margin-left: -25px;
+
+	}
+	
+	column1, .column2, .column3 {
+    border-bottom: 1px solid transparent;
+    float: left;
+    height: auto;
+    margin: 0 1em;
+    padding-left: 0.2em;
+    padding-top: 5%;
+    width: 100%;
+}
+	#one, #two, #three{
+	width: 100%;
+	
+	}
+.testimonial_pictures {
+    margin: 20px 0 0 20px;
+    width: 100%;
+}
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
