@@ -1023,13 +1023,16 @@ margin: 30px 0 0 40px;
 	
 	}
 	
-	#columns {
+	.testimonialColumns {
         width: 100%;
-       
-        height: auto;
+      	margin-bottom: 12%;
+        min-height: 400px;
         border-top: solid 2px #d2232a;
         
     }
+
+
+
 
    .column1, .column2, .column3{
    width: 30%;
@@ -1038,6 +1041,7 @@ margin: 30px 0 0 40px;
    margin: 0 1em;
    padding-top: 5%;
    padding-left: .2em;
+   border-bottom: solid 1px transparent;
    
    }
    
@@ -1052,8 +1056,15 @@ margin: 30px 0 0 40px;
 p + p {
   text-indent: 1.5em;
   margin-top: 5% }
-   
-   
+ 
+ .testimonial_pictures{
+ 
+ width: 50%;
+ 
+ margin: 60px 0 0 35px;
+ 
+ 	}
+    
 <<<<<<< HEAD
 
 /* #Media Queries
