@@ -77,8 +77,6 @@ p {
 	color: #d2232a;
 	margin-bottom: .72em;
 	}
-	
-	
 
 .wwcd{
 	margin-left: 20px;
@@ -409,13 +407,13 @@ ul.products_nav li{
 
 #footer-nav {
 	float: right;
-	margin: 5px 20px 10px 0px ;
+	margin: 9px 20px 10px 0px ;
 	}
 	
 #footer p {
 	float: left;
 	color: White;
-	margin: 4px 0px 0px 20px;
+	margin: 11px 0px 0px 20px;
 	font-size: 10px;
 	}
 
@@ -520,6 +518,7 @@ a.nav:active {text-decoration:none;}
 
 #contact_content{
 	border-top: solid #d2232a 4px;
+	padding-top: 30px;
 	}
 
 #contactLeft {
@@ -562,13 +561,12 @@ a.nav:active {text-decoration:none;}
 
 #footContainer{	
 	margin: 0px auto;
-	width: 960px;
 	}
 
 #twitter_logo a {
     display: block;
     height: 40px;
-    margin: 0;
+    margin-top: 20px;
     text-indent: -9999px;
 	}
 
@@ -603,7 +601,6 @@ a.nav:active {text-decoration:none;}
 #wufoo-z7x3x5{
 	width: 300px;
 	float: left;
-	/*background-color: fuchsia;*/
 	color:  #d2232d ; 
 	margin-top: 20px;
 	}
@@ -613,26 +610,26 @@ a.nav:active {text-decoration:none;}
 	}
 
 #coverage_map{
-	width: 300px;
-	float: left;
 	margin: 15px 0 0 10px;
-	padding-right: 0px;
+	}
+
+#coverage_map img{
+	width: 100%;
 	}
 
 #coverage_map h5{
 	width: 280px;
 	float: left;
 	margin: 2px 0 0 10px;
-	padding-right: 0px;
 	line-height: 30px;
 	}
 
 #homebase{
-margin: 30px 0 0 40px;
+	margin: 30px 0px 0px 0px;
 	}
 
 #red_house{
-	margin: 0px 0 -50px 775px;
+	margin: 0px 0px -50px 775px;
 	}
 
 #footer.contact{
@@ -824,8 +821,7 @@ margin: 30px 0 0 40px;
 	margin-left: 10px;
 	
 	}
-
-
+	
 #clickme a{
 	text-decoration: none;	
 	}
@@ -943,11 +939,11 @@ margin: 30px 0 0 40px;
 	
 	}
 	
-	.testimonialColumns {
-        width: 100%;
-      	margin-bottom: 12%;
-        min-height: 400px;
-        border-top: solid 2px #d2232a;
+.testimonialColumns {
+	width: 100%;
+	margin-bottom: 12%;
+	min-height: 400px;
+	border-top: solid 2px #d2232a;
         
     }
 
@@ -1006,8 +1002,13 @@ p + p {
 	#whereWeDoIt img {
 		width: 305px;
 		}
-  }
 
+	#red_house{
+		margin: 0px 0 -50px 600px;
+		}
+
+  }
+  
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {}
 
@@ -1099,6 +1100,11 @@ p + p {
 		}
 
 	/* START FOOTER */
+
+	#red_house{
+		margin: 20px 0 -50px 250px;
+		}
+
 
   }
 
