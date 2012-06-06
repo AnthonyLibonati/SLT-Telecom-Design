@@ -477,7 +477,7 @@ a.nav:active {text-decoration:none;}
 #home-button a.home-button{background: transparent url('../images/home-button-sprite.png') no-repeat 1px 0px; }
 #home-button a.home-button:hover{ background: transparent url('../images/home-button-sprite.png') no-repeat 1px -37px; }
 #home-button a.home-button:active{ background: transparent url('../images/home-button-sprite.png') no-repeat 1px -37px; }
-
+#home-button a.current_page{ background: transparent url('../images/home-button-sprite.png') no-repeat 1px -37px; }
 /* end navigation*/
 
 /* home page */
