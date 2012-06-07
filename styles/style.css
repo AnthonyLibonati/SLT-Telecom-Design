@@ -1320,7 +1320,7 @@ H3 {
     font-family: "depot-new-condensed-web",sans-serif;
     font-size: 1.75em;
     font-weight: 400;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.05em;
     line-height: 1.36em;
     text-decoration: none;
 }
@@ -1445,6 +1445,55 @@ display: none;
 	
 	
 /* end testimonials*/
+  
+  /*home page*/
+  
+  
+  h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+H3 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 1.75em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1.36em;
+    text-decoration: none;
+}
+
+#homeWrap h3{
+		width: 250px;
+		margin-left: 0;
+	}
+
+#homeWrap{
+		padding: 10px;
+	}
+  
+  
+  #intro{
+  padding-left: 10px;
+  
+  }
+  
+  .contactBubble{
+
+	margin-top: -60px;
+	float: left;
+	margin-left: 38px;
+	}
+.contact_house{
+margin-left: 38px;
+float: left;
+margin-top: 20px;
+	}
+
+
+  
   
   }
 =======
