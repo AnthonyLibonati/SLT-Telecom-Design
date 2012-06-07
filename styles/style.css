@@ -1062,6 +1062,7 @@ H3 {
     letter-spacing: 0.07em;
     line-height: 1.36em;
     text-decoration: none;
+    
 }
 
 
@@ -1074,7 +1075,12 @@ H3 {
       
     }
 
+#whoText{
 
+	margin-left: 0px;
+
+
+	}
 
 
    .column1, .column2, .column3{
@@ -1106,6 +1112,11 @@ float: left;
 	}
 	
   
+  
+  	
+
+  
+  
   }
     
   /* All Mobile Sizes (devices and browser) */
@@ -1117,6 +1128,7 @@ float: left;
   
   
   
+ 
   
   
   
@@ -1336,7 +1348,7 @@ H3 {
 }
 
 #homeWrap h3{
-		width: 300px;
+		width: 250px;
 	
 	}
 
@@ -1350,7 +1362,21 @@ H3 {
 margin-left: 55px;
 float: left;
 	}
+	
+	#whoText{
 
+	margin-left: 0px;
+	width: 250px;
+
+	}
+#whoText h3{
+
+	margin-left: 0px;
+	width: 330px;
+
+	}
+
+	
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -1503,8 +1529,23 @@ margin-top: 20px;
 	}
 
 
-  
-  
+  #whoText{
+
+	margin-left: 0px;
+	width: 230px;
+
+	}
+#whoText h3{
+
+	margin-left: 0px;
+	width:250px;
+
+	}
+
+#whereWeDoIt img {
+    margin: o auto;
+    width: 80%;
+}  
   }
 =======
 >>>>>>> contact page updates
