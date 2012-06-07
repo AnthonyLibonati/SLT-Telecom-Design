@@ -1112,7 +1112,10 @@ float: left;
 	}
 	
   
-  
+  #productsIntro h3 {
+    color: White;
+    padding-left: 30px;
+}
   	
 
   
@@ -1334,7 +1337,7 @@ display: none;
  h1 {
     color: white;
     letter-spacing: 0.05em;
-    
+    margin-left: -40px;
     font-size: 2.7em;
 }
 H3 {
@@ -1345,6 +1348,8 @@ H3 {
     letter-spacing: 0.05em;
     line-height: 1.36em;
     text-decoration: none;
+    margin-left: -40px;
+    width: 350px;
 }
 
 #homeWrap h3{
@@ -1384,12 +1389,34 @@ margin-left: 0px;
 
 }
 
+	#servicesIntro h1{
+padding: 0px;
+margin-left: -20px;
+	width: 320px;
+}
+
+#productsIntro h1{
+
+margin-left: -35px;
+
+
+}
+
+#productsIntro h3 {
+    color: White;
+    padding-left: 35px;
+}
+
 #servicesIntro h1{
 margin-left: -30px;
 }
 #servicesIntro h3{
 margin-left: -30px;
 }
+
+
+
+
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -1568,6 +1595,24 @@ margin-left: -30px;
 
 }
 
+#productsIntro h3{
+
+margin-left: -30px;
+	width: 230px;
+
+
+}
+
+
+#productsIntro h1{
+
+margin-left: -30px;
+	width: 230px;
+
+
+}
+
+
 #servicesIntro h1{
 
 margin-left: -30px;
@@ -1586,5 +1631,38 @@ margin-left: -20px;
     font-size: 2.5em;
     margin-left: 20px;
   }
+  
+  
+  
+ h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    margin-left: -90px;
+    font-size: 2.7em;
+}
+H3 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 1.75em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1.36em;
+    text-decoration: none;
+    margin-left: -40px;
+    width: 350px;
+}
+
+#homeWrap h3{
+		width: 200px;
+	
+	}
+
+.contactBubble{
+
+	margin-top: -60px;
+	float: left;
+	margin-left: 55px;
+	}
+
 =======
 >>>>>>> contact page updates
