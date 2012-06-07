@@ -319,8 +319,7 @@ ul.products_nav li{
 	margin-bottom: 35px;
 	}
 	
-	#whoText{
-
+#whoText{
 	margin-left:40px;
 	}
 
@@ -1025,98 +1024,85 @@ a.button:hover {
 	#red_house{
 		margin: 0px 0 -50px 600px;
 		}
+		
 	#content_testimonials{
-  
-  
-height: 320px;
- 
-  }
+  		height: 320px;
+		}
 
-  H2 {
-    color: #D2232A;
-    font-family: "depot-new-condensed-web",sans-serif;
-    font-size: 2.7em;
-    font-weight: 300;
-    line-height: 1.39em;
-    margin-bottom: 0.25em;
-    text-decoration: none;
-}
-  
-  .testimonial h1 {
-    color: white;
-    letter-spacing: 0.05em;
-    margin-left: 40px;
-    font-size: 2.7em;
-}
-
-   h1 {
-    color: white;
-    letter-spacing: 0.05em;
-    
-    font-size: 2.7em;
-}
-H3 {
-    color: #D2232A;
-    font-family: "depot-new-condensed-web",sans-serif;
-    font-size: 1.75em;
-    font-weight: 400;
-    letter-spacing: 0.07em;
-    line-height: 1.36em;
-    text-decoration: none;
-    
-}
-
-
-.testimonialColumns {
-	width: 100%;
-	margin-bottom: 10%;
-	height: auto;
-	border-top: solid 2px #d2232a;
-    margin-top: 5%;  
-      
-    }
-
-#whoText{
-
-	margin-left: 0px;
-
-
-	}
-
-
-   .column1, .column2, .column3{
-   width: 27%;
-   height: auto;
-   float: left;
-   margin: 0 1em;
-   padding-top: 5%;
-   padding-left: .2em;
-   border-bottom: solid 1px transparent;
-   
-   }
-   
-   .column2, .column3{
-   
-   padding-top: 15%;
-   
-   
-   }
-   .contactBubble{
-
-	margin-top: -60px;
-	float: left;
-	margin-left: 55px;
-	}
-.contact_house{
-margin-left: 55px;
-float: left;
-	}
+  	H2 {
+		color: #D2232A;
+		font-family: "depot-new-condensed-web",sans-serif;
+		font-size: 2.7em;
+		font-weight: 300;
+		line-height: 1.39em;
+		margin-bottom: 0.25em;
+		text-decoration: none;
+		}
+	  
+	.testimonial h1 {
+		color: white;
+		letter-spacing: 0.05em;
+		margin-left: 40px;
+		font-size: 2.7em;
+		}
 	
-  
-  #productsIntro h3 {
-    color: White;
-    padding-left: 30px;
-}
+	h1 {
+		color: white;
+		letter-spacing: 0.05em;
+		font-size: 2.7em;
+		}
+		
+	H3 {
+		color: #D2232A;
+		font-family: "depot-new-condensed-web",sans-serif;
+		font-size: 1.75em;
+		font-weight: 400;
+		letter-spacing: 0.07em;
+		line-height: 1.36em;
+		text-decoration: none;
+		}
+	
+	.testimonialColumns {
+		width: 100%;
+		margin-bottom: 10%;
+		height: auto;
+		border-top: solid 2px #d2232a;
+		margin-top: 5%;     
+		}
+	
+	#whoText{
+		margin-left: 0px;
+		}
+	
+	.column1, .column2, .column3{
+	   width: 27%;
+	   height: auto;
+	   float: left;
+	   margin: 0 1em;
+	   padding-top: 5%;
+	   padding-left: .2em;
+	   border-bottom: solid 1px transparent;
+	   }
+	   
+	.column2, .column3{
+	   padding-top: 15%;
+	   }
+	   
+	.contactBubble{
+		margin-top: -60px;
+		float: left;
+		margin-left: 55px;
+		}
+		
+	.contact_house{
+		margin-left: 55px;
+		float: left;
+		}
+		
+  	#productsIntro h3 {
+ 	   color: White;
+ 	   padding-left: 30px;
+ 	   }
   	
 
   
@@ -1125,314 +1111,292 @@ float: left;
     
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-  
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-	/* START HEADER NAV */
-	#home-button{
-
-	margin-right: 25px;
-	margin-top: -5px;
-
-	}	
-	ul.nav li{
-		float: left;
-		text-align: left;
-		list-style: none;
-		border: none;
-		color: #d2232a;
-		padding: 2px 8px 35px 0;
-		margin: 25px 5px 0px 0px;
-		border: none;   
-		background-color: none;
-		font-size: 68%;
-		letter-spacing: .08em;
+		/* START HEADER NAV */
+		#home-button{
+			margin-right: 25px;
+			margin-top: -5px;
+			}
+			
+		ul.nav li{
+			float: left;
+			text-align: left;
+			list-style: none;
+			border: none;
+			color: #d2232a;
+			padding: 2px 8px 35px 0;
+			margin: 25px 5px 0px 0px;
+			border: none;   
+			background-color: none;
+			font-size: 68%;
+			letter-spacing: .08em;
+			}
+			
+		/* END HEADER NAV */
+	
+		/* START SERVICES PAGE */
+			
+		#phone .text{
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			border-bottom: solid 2px #d2232a;
+			border-right: none;
+			}
+		
+		#internet .text{
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			border-bottom: solid 2px #d2232a;
+			border-right: none;
+			}
+		
+		#tv {
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-bottom: 20px;
+			}	
+			
+		#internet {
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-bottom: 20px;
+			}	
+	
+		#phone {
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-bottom: 20px;
+			}	
+		
+		#internet a.internet_products {
+			margin-right: 0px;
+			}
+			
+		#phone a.phone_products {
+			margin-right: 0px;
+			}
+	
+		/* END SERVICES PAGE */
+	
+		/* START WHO WE ARE PAGE */
+	
+		#whereWeDoIt img {
+			width: 360px;
+			}
+		
+		#whatWeDo {
+			border-bottom: solid 2px #d2232a;
+			}
+			
+		#whoText{
+			margin-left: 0px;
+			width: 300px;
+			}
+		
+		#whoIntroWrap{
+			padding: 20px 10px 20px 10px;
+			}
+		
+		
+		/* END WHO WE ARE PAGE */
+	
+		/* START FOOTER */
+	
+		#footer li {
+			margin: 0 0 0 16px;
+			}
+			
+		#footer p {
+			margin: 5px 0px 0px 160px;
+			}
+	
+		/* END FOOTER */
+	
+		/* START CONTACT */
+	
+		#red_house {
+			margin: 20px 0 -50px 250px;
+			}
+		
+		#wufoo-z7x3x5 {
+			border-bottom: solid 2px #d2232a;
+			padding-bottom; 20px;
+			}
+		
+		#coverage_map {
+			margin-top; 30px;
+			}
+			
+		#contactLeft {
+			border-bottom: solid 2px #d2232a;
+			padding-bottom: 30px;
+			margin-bottom: 20px;
+			}
+		
+		/* END CONTACT */
+		
+		/*testimonials*/
+		#content_testimonials {
+		background-color: #D2232A;
+		clear: both;
+		display: block;
+		margin-bottom: 5%;
+		margin-top: 0;
+		height: 400px;
+		padding: 30px 30px 35px;
+		position: relative;
+	}
+		
+		.pullquote {
+		background-color: white;
+		height: auto;
+		margin: -55px 0 0 -15px !important;
+		padding: 10px;
+		width: 300px !important;
+	}
+		
+		H2 {
+			color: #D2232A;
+			font-family: "depot-new-condensed-web",sans-serif;
+			font-size: 2em;
+			font-weight: 300;
+			line-height: 1.39em;
+			margin-bottom: 0.25em;
+			text-decoration: none;
+		}
+		.testimonial h1 {
+			color: white;
+			letter-spacing: 0.05em;
+			margin-left: 20px;
+			font-size: 3em;
+		}
+		.quote{
+			margin-top: 15px;
+			margin-left: -25px;
+		
+			}
+			
+			column1, .column2, .column3 {
+			border-bottom: 1px solid transparent;
+			float: left;
+			height: auto;
+			margin: 0 1em;
+			padding-left: 0.2em;
+			padding-top: 5%;
+			width: 100%;
+		}
+			#one, #two, #three{
+			width: 100%;
+			
+			}
+		.testimonial_pictures {
+			margin: 20px 0 0 0px;
+			width: 100%;
 		}
 		
-	/* END HEADER NAV */
-
-	/* START SERVICES PAGE */
 		
-	#phone .text{
-		margin-bottom: 20px;
-		padding-bottom: 20px;
-		border-bottom: solid 2px #d2232a;
-		border-right: none;
-		}
-	
-	#internet .text{
-		margin-bottom: 20px;
-		padding-bottom: 20px;
-		border-bottom: solid 2px #d2232a;
-		border-right: none;
-		}
-	
-	#tv {
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-bottom: 20px;
-		}	
-		
-	#internet {
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-bottom: 20px;
-		}	
-
-	#phone {
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-bottom: 20px;
-		}	
-	
-	#internet a.internet_products {
-		margin-right: 0px;
+		#mobile_paragraph{
+		display:block;
+		width: 100%;
+		padding-top: 5em;
 		}
 		
-	#phone a.phone_products {
-		margin-right: 0px;
-		}
-
-	/* END SERVICES PAGE */
-
-	/* START WHO WE ARE PAGE */
-
-	#whereWeDoIt img {
-		width: 360px;
-		}
-	
-	#whatWeDo {
-		border-bottom: solid 2px #d2232a;
-		}
-	
-	/* END WHO WE ARE PAGE */
-
-	/* START FOOTER */
-
-	#footer li {
-		margin: 0 0 0 16px;
+		.fullsize{
+		display: none;
 		}
 		
-	#footer p {
-		margin: 5px 0px 0px 160px;
-		}
-
-	/* END FOOTER */
-
-	/* START CONTACT */
-
-	#red_house {
-		margin: 20px 0 -50px 250px;
-		}
-	
-	#wufoo-z7x3x5 {
-		border-bottom: solid 2px #d2232a;
-		padding-bottom; 20px;
-		}
-	
-	#coverage_map {
-		margin-top; 30px;
-		}
+		/*end testimonials*/
 		
-	#contactLeft {
-		border-bottom: solid 2px #d2232a;
-		padding-bottom: 30px;
-		margin-bottom: 20px;
+		
+		
+		/*home page*/
+		
+		 h1 {
+			color: white;
+			letter-spacing: 0.05em;
+			margin-left: -40px;
+			font-size: 2.7em;
 		}
-	
-	/* END CONTACT */
-	
-	/*testimonials*/
-	#content_testimonials {
-    background-color: #D2232A;
-    clear: both;
-    display: block;
-    margin-bottom: 5%;
-    margin-top: 0;
-    height: 400px;
-    padding: 30px 30px 35px;
-    position: relative;
-}
-	
-	.pullquote {
-    background-color: white;
-    height: auto;
-    margin: -55px 0 0 -15px !important;
-    padding: 10px;
-    width: 300px !important;
-}
+		H3 {
+			color: #D2232A;
+			font-family: "depot-new-condensed-web",sans-serif;
+			font-size: 1.75em;
+			font-weight: 400;
+			letter-spacing: 0.05em;
+			line-height: 1.36em;
+			text-decoration: none;
+			margin-left: -40px;
+			width: 350px;
+			}
+		
+		#homeWrap h3{
+			width: 250px;	
+			}
+		
+		.contactBubble{
+			margin-top: -60px;
+			float: left;
+			margin-left: 55px;
+			}
+			
+		.contact_house{
+			margin-left: 55px;
+			float: left;
+			}
+			
+		#whoText{
+			margin-left: 0px;
+			width: 250px;		
+			}
+			
+		#whoText h1{
+			margin-left: 0px;
+			width: 250px;
+			}
+			
+		#whoText h3{	
+			margin-left: 0px;
+			width: 330px;
+			}
+		
+		#servicesIntro h3{
+			margin-left: 0px;
+			width: 320px;
+			}
+		
+		#servicesIntro h1{
+			padding: 0px;
+			margin-left: -20px;
+			width: 320px;
+			}
+		
+		#productsIntro h1{
+			margin-left: -35px;
+			}
+		
+		#productsIntro h3 {
+			color: White;
+			padding-left: 35px;
+			}
+		
+		#servicesIntro h1{
+			margin-left: -30px;
+			}
+			
+		#servicesIntro h3{
+			margin-left: -30px;
+			}
 
-H2 {
-    color: #D2232A;
-    font-family: "depot-new-condensed-web",sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 1.39em;
-    margin-bottom: 0.25em;
-    text-decoration: none;
-}
-.testimonial h1 {
-    color: white;
-    letter-spacing: 0.05em;
-    margin-left: 20px;
-    font-size: 3em;
-}
-.quote{
-	margin-top: 15px;
-	margin-left: -25px;
-
-	}
-	
-	column1, .column2, .column3 {
-    border-bottom: 1px solid transparent;
-    float: left;
-    height: auto;
-    margin: 0 1em;
-    padding-left: 0.2em;
-    padding-top: 5%;
-    width: 100%;
-}
-	#one, #two, #three{
-	width: 100%;
-	
-	}
-.testimonial_pictures {
-    margin: 20px 0 0 0px;
-    width: 100%;
-}
-
-
-#mobile_paragraph{
-display:block;
-width: 100%;
-padding-top: 5em;
-}
-
-.fullsize{
-display: none;
-}
-
-/*end testimonials*/
-
-
-
-/*home page*/
-
- h1 {
-    color: white;
-    letter-spacing: 0.05em;
-    margin-left: -40px;
-    font-size: 2.7em;
-}
-H3 {
-    color: #D2232A;
-    font-family: "depot-new-condensed-web",sans-serif;
-    font-size: 1.75em;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    line-height: 1.36em;
-    text-decoration: none;
-    margin-left: -40px;
-    width: 350px;
-}
-
-#homeWrap h3{
-		width: 250px;
+		#homeWrap h3{
+			width: 300px;
+			margin-left: -40px;
+			}
 	
 	}
-
-.contactBubble{
-
-	margin-top: -60px;
-	float: left;
-	margin-left: 55px;
-	}
-.contact_house{
-margin-left: 55px;
-float: left;
-	}
-	
-	#whoText{
-
-	margin-left: 0px;
-	width: 250px;
-
-	}
-	
-	#whoText h1{
-
-	margin-left: 0px;
-	width: 250px;
-
-	}
-
-	
-	
-#whoText h3{
-
-	margin-left: 0px;
-	width: 330px;
-
-	}
-
-	#servicesIntro h3{
-
-margin-left: 0px;
-	width: 320px;
-
-
-}
-
-	#servicesIntro h1{
-padding: 0px;
-margin-left: -20px;
-	width: 320px;
-}
-
-#productsIntro h1{
-
-margin-left: -35px;
-
-
-}
-
-#productsIntro h3 {
-    color: White;
-    padding-left: 35px;
-}
-
-#servicesIntro h1{
-margin-left: -30px;
-}
-#servicesIntro h3{
-margin-left: -30px;
-}
-
-
-#homeWrap h3{
-		width: 300px;
-		margin-left: -40px;
-	}
-
-
-  }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
@@ -1443,10 +1407,9 @@ margin-left: -30px;
     margin-right: 25px;
     margin-top: -2px;
     margin-bottom: 20px;
-}
+	}
  
  ul.nav li{
-  
  	float: left;
     list-style: none;
    	margin: 0 auto;
@@ -1461,27 +1424,26 @@ margin-left: -30px;
     clear: none;
     padding-left: 5px;
 	}
+	
 a.nav:link {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
 a.nav:visited {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
 a.nav:hover {text-decoration:none; padding-bottom: 0px; border-bottom:1px solid #a21d22; color: #a21d22;}
 a.nav:active {text-decoration:none;}
 
-   /*testimonials*/
+/*testimonials*/
   
-  
-  #mobile_paragraph{
-display:block;
-width: 90%;
-padding-top: 5em;
-margin: 0 auto;
-}
+#mobile_paragraph{
+	display:block;
+	width: 90%;
+	padding-top: 5em;
+	margin: 0 auto;
+	}
 
 .fullsize{
-display: none;
-}
-
+	display: none;
+	}
   
-  column1, .column2, .column3 {
+column1, .column2, .column3 {
     border-bottom: 1px solid transparent;
     float: left;
     height: auto;
@@ -1489,25 +1451,25 @@ display: none;
     padding-left: 0.2em;
     padding-top: 5%;
     width: 100%;
-}
-	#one, #two, #three{
+	}
+	
+#one, #two, #three{
 	width: 90%;
 	margin: 0 auto;
 	}
+	
 .testimonial_pictures {
     margin: 0 auto;
     width: 100%;
-}
+	}
 
   
-  .testimonial h1 {
+.testimonial h1 {
     color: white;
     letter-spacing: 0.05em;
     margin-left: 20px;
     font-size: 2em;
-}
-
-  
+	}
   
   H2 {
     color: #D2232A;
@@ -1517,7 +1479,7 @@ display: none;
     line-height: 1.39em;
     margin-bottom: 0.25em;
     text-decoration: none;
-}
+	}
 
 .pullquote {
     background-color: white;
@@ -1525,28 +1487,24 @@ display: none;
     margin: -55px 0 0 -15px !important;
     padding: 10px;
     width: 200px !important;
-}
+	}
 
-  .quote{
+.quote{
 	margin-top: 15px;
 	margin-left: -23px;
-
 	}
-	
-	
 	
 /* end testimonials*/
   
   /*home page*/
   
-  
-  h1 {
+h1 {
     color: white;
     letter-spacing: 0.05em;
     padding-top: 10px;
     font-size: 2.5em;
-    
-}
+	}
+	
 H3 {
     color: #D2232A;
     font-family: "depot-new-condensed-web",sans-serif;
@@ -1555,91 +1513,79 @@ H3 {
     letter-spacing: 0.05em;
     line-height: 1.36em;
     text-decoration: none;
-}
+	}
 
 #homeWrap h3{
-		width: 250px;
-		margin-left: 0;
+	width: 250px;
+	margin-left: 0;
 	}
 
 #homeWrap{
-		padding: 10px;
+	padding: 10px;
 	}
  
-
+ #intro{
+  	padding-left: 10px;
+  	}
   
-  #intro{
-  padding-left: 10px;
-  
-  }
-  
-  .contactBubble{
-
+.contactBubble{
 	margin-top: -60px;
 	float: left;
 	margin-left: 38px;
 	}
+	
 .contact_house{
-margin-left: 38px;
-float: left;
-margin-top: 20px;
+	margin-left: 38px;
+	float: left;
+	margin-top: 20px;
 	}
 
-
-  #whoText{
-
+#whoText{
 	margin-left: 0px;
-	width: 230px;
-
+	width: 300px;
 	}
-#whoText h3{
 
+#whoIntroWrap{
+	padding: 20px 10px 20px 10px;
+	}
+
+#whoText h3{
 	margin-left: 0px;
 	width:250px;
-
 	}
 
 #whereWeDoIt img {
     margin: o auto;
     width: 80%;
-}  
+	}  
+
+#servicesIntroWrap{
+	padding-left: 10px;
+	}
 
 #servicesIntro h3{
-
-margin-left: -30px;
+	margin-left: -30px;
 	width: 230px;
-
-
-}
+	}
 
 #productsIntro h3{
-
-margin-left: -30px;
+	margin-left: -30px;
 	width: 230px;
-
-
-}
+	}
 
 
 #productsIntro h1{
-
-margin-left: -30px;
+	margin-left: -30px;
 	width: 230px;
-
-
-}
-
+	}
 
 #servicesIntro h1{
+	margin-left: -30px;
+	}
 
-margin-left: -30px;
-
-}
 #whoText h1{
-
-margin-left: 0px;
-
-}
+	margin-left: 0px;
+	}
 
 .container h1{
     color: white;
@@ -1647,16 +1593,15 @@ margin-left: 0px;
     padding-top: 10px;
     font-size: 2.5em;
     margin-left: 0px;
-  }
-  
-  
+  	}
   
  h1 {
     color: white;
     letter-spacing: 0.05em;
     margin-left: -90px;
     font-size: 2.7em;
-}
+	}
+	
 H3 {
     color: #D2232A;
     font-family: "depot-new-condensed-web",sans-serif;
@@ -1667,19 +1612,15 @@ H3 {
     text-decoration: none;
     margin-left: -40px;
     width: 350px;
-}
+	}
 
 #homeWrap h3{
-		width: 200px;
-		
+	width: 200px;	
 	}
 
 .contactBubble{
-
 	margin-top: -60px;
 	float: left;
 	margin-left: 55px;
 	}
-
-=======
->>>>>>> contact page updates
+}
