@@ -38,7 +38,7 @@ H3 {
 	font-size: 2.15em;
 	line-height: 1.36em;
 	color: #d2232a;
-	letter-spacing: .07em;
+	letter-spacing: .04em;
 	}
 
 H4 {
@@ -891,14 +891,14 @@ a.nav:active {text-decoration:none;}
 	margin-left: 40px;
 	color: white;
 	
-	letter-spacing: .05em;
+	letter-spacing: .07em;
 	}
 
 
 
 
 .pullquote h3{
-	line-height: 1.25em;
+	
 	padding-left: 10px;
 	}
 
@@ -1057,7 +1057,7 @@ a.button:hover {
 		font-family: "depot-new-condensed-web",sans-serif;
 		font-size: 1.75em;
 		font-weight: 400;
-		letter-spacing: 0.07em;
+		letter-spacing: 0.03em;
 		line-height: 1.36em;
 		text-decoration: none;
 		}
@@ -1298,6 +1298,13 @@ a.button:hover {
 			width: 100%;
 		}
 		
+		.h3Margin{
+  
+  
+  margin-left: .2%;
+  
+  }
+
 		
 		#mobile_paragraph{
 		display:block;
@@ -1320,13 +1327,14 @@ a.button:hover {
 			letter-spacing: 0.05em;
 			margin-left: -40px;
 			font-size: 2.7em;
+			background-color: transparent;
 		}
 		H3 {
 			color: #D2232A;
 			font-family: "depot-new-condensed-web",sans-serif;
 			font-size: 1.75em;
 			font-weight: 400;
-			letter-spacing: 0.05em;
+			letter-spacing: 0.02em;
 			line-height: 1.36em;
 			text-decoration: none;
 			margin-left: -40px;
@@ -1347,9 +1355,12 @@ a.button:hover {
 			margin-left: 55px;
 			float: left;
 			}
+		
+		
+		/*who we are*/
 			
 		#whoText{
-			margin-left: 0px;
+			margin-left: 4%;
 			width: 250px;		
 			}
 			
@@ -1431,7 +1442,15 @@ a.nav:hover {text-decoration:none; padding-bottom: 0px; border-bottom:1px solid 
 a.nav:active {text-decoration:none;}
 
 /*testimonials*/
+  .h3Margin{
   
+  
+  margin-left: .2%;
+  
+  }
+
+  
+    
 #mobile_paragraph{
 	display:block;
 	width: 90%;
@@ -1503,6 +1522,8 @@ h1 {
     letter-spacing: 0.05em;
     padding-top: 10px;
     font-size: 2.5em;
+    background-color: transparent;
+
 	}
 	
 H3 {
@@ -1513,6 +1534,15 @@ H3 {
     letter-spacing: 0.05em;
     line-height: 1.36em;
     text-decoration: none;
+	}
+	
+	
+	
+	#mobile_paragraph h3{
+	
+	margin: o auto;
+	
+	
 	}
 
 #homeWrap h3{
@@ -1546,7 +1576,7 @@ H3 {
 	}
 
 #whoIntroWrap{
-	padding: 20px 10px 20px 10px;
+	padding: 10px 10px 20px 20px;
 	}
 
 #whoText h3{
