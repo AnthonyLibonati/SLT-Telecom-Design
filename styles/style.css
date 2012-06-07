@@ -1002,6 +1002,10 @@ p + p {
 a.button:hover {
 	color: #cccccc;
 	}
+	
+	#mobile_paragraph{
+	display: none;
+	}	
     
     <<<<<<< HEAD
 
@@ -1044,6 +1048,21 @@ height: 320px;
     font-size: 2.7em;
 }
 
+   h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    
+    font-size: 2.7em;
+}
+H3 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 1.75em;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    line-height: 1.36em;
+    text-decoration: none;
+}
 
 
 .testimonialColumns {
@@ -1101,7 +1120,12 @@ height: 320px;
   @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 	/* START HEADER NAV */
+	#home-button{
 
+	margin-right: 25px;
+	margin-top: -5px;
+
+	}	
 	ul.nav li{
 		float: left;
 		text-align: left;
@@ -1209,7 +1233,7 @@ height: 320px;
 	
 	/* END CONTACT */
 	
-	
+	/*testimonials*/
 	#content_testimonials {
     background-color: #D2232A;
     clear: both;
@@ -1267,9 +1291,161 @@ H2 {
     margin: 20px 0 0 20px;
     width: 100%;
 }
+
+
+#mobile_paragraph{
+display:block;
+width: 100%;
+padding-top: 5em;
+}
+
+.fullsize{
+display: none;
+}
+
+/*end testimonials*/
+
+
+
+/*home page*/
+
+ h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    
+    font-size: 2.7em;
+}
+H3 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 1.75em;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    line-height: 1.36em;
+    text-decoration: none;
+}
+
+#homeWrap h3{
+		width: 300px;
+	
+	}
+
+.contactBubble{
+
+	margin-top: -60px;
+	float: left;
+	margin-left: 80px;
+	}
+.contact_house{
+margin-left: 80px;
+float: left;
+	}
+
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+  @media only screen and (max-width: 479px) {
+  
+ #home-button {
+    float: left;
+    margin-left: 3px;
+    margin-right: 25px;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+ 
+ ul.nav li{
+  
+ 	float: left;
+    list-style: none;
+   	margin: 0 auto;
+    border: none;
+    color: #d2232a;
+    border: none;   
+    background-color: none;
+    font-size: 80%;
+    letter-spacing: .03em;
+    clear: both;
+    position: relative;
+    clear: none;
+    padding-left: 5px;
+	}
+a.nav:link {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
+a.nav:visited {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
+a.nav:hover {text-decoration:none; padding-bottom: 0px; border-bottom:1px solid #a21d22; color: #a21d22;}
+a.nav:active {text-decoration:none;}
+
+   /*testimonials*/
+  
+  
+  #mobile_paragraph{
+display:block;
+width: 90%;
+padding-top: 5em;
+margin: 0 auto;
+}
+
+.fullsize{
+display: none;
+}
+
+  
+  column1, .column2, .column3 {
+    border-bottom: 1px solid transparent;
+    float: left;
+    height: auto;
+    margin: 0 1em;
+    padding-left: 0.2em;
+    padding-top: 5%;
+    width: 100%;
+}
+	#one, #two, #three{
+	width: 90%;
+	margin: 0 auto;
+	}
+.testimonial_pictures {
+    margin: 0 auto;
+    width: 100%;
+}
+
+  
+  .testimonial h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+  
+  
+  H2 {
+    color: #D2232A;
+    font-family: "depot-new-condensed-web",sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.39em;
+    margin-bottom: 0.25em;
+    text-decoration: none;
+}
+
+.pullquote {
+    background-color: white;
+    height: auto;
+    margin: -55px 0 0 -15px !important;
+    padding: 10px;
+    width: 200px !important;
+}
+
+  .quote{
+	margin-top: 15px;
+	margin-left: -23px;
+
+	}
+	
+	
+	
+/* end testimonials*/
+  
+  }
 =======
 >>>>>>> contact page updates
