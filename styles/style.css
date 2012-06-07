@@ -452,7 +452,7 @@ a.nav:active {text-decoration:none;}
 	margin-top: 0;
 	}
 
-.current_page{text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #a21d22; color: #a21d22;}
+.current_page{text-decoration:none; padding-bottom: 2px; border-bottom:1px solid #a21d22; color: #a21d22 !important;}
 
 #logo{
 	margin-bottom: 25px;
