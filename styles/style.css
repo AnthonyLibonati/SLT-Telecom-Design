@@ -1094,6 +1094,16 @@ H3 {
    
    
    }
+   .contactBubble{
+
+	margin-top: -60px;
+	float: left;
+	margin-left: 55px;
+	}
+.contact_house{
+margin-left: 55px;
+float: left;
+	}
 	
   
   }
@@ -1334,10 +1344,10 @@ H3 {
 
 	margin-top: -60px;
 	float: left;
-	margin-left: 80px;
+	margin-left: 55px;
 	}
 .contact_house{
-margin-left: 80px;
+margin-left: 55px;
 float: left;
 	}
 
