@@ -1426,6 +1426,10 @@ margin-left: -30px;
 }
 
 
+#homeWrap h3{
+		width: 300px;
+		margin-left: -40px;
+	}
 
 
   }
@@ -1561,7 +1565,8 @@ H3 {
 #homeWrap{
 		padding: 10px;
 	}
-  
+ 
+
   
   #intro{
   padding-left: 10px;
@@ -1641,7 +1646,7 @@ margin-left: 0px;
     letter-spacing: 0.05em;
     padding-top: 10px;
     font-size: 2.5em;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   
   
@@ -1666,7 +1671,7 @@ H3 {
 
 #homeWrap h3{
 		width: 200px;
-	
+		
 	}
 
 .contactBubble{
