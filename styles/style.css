@@ -1154,6 +1154,21 @@ a.button:hover {
 			}
 	
 		/* END SERVICES PAGE */
+		
+			/* START PRODUCTS PAGE */
+			.products #text2 {
+    border-left: none;
+ 	
+	}
+	
+	.slide1 p, .slide2 p, .slide3 p{
+	margin-left:20px;
+	
+	}
+			
+			
+			
+			/* END PRODUCTS PAGE */
 	
 		/* START WHO WE ARE PAGE */
 	
@@ -1427,7 +1442,7 @@ ul.nav li{
     padding: 3px 10px 3px 0px;
 	}
 
-#text2 {
+.products #text2 {
     border-left: none;
     float: right;
     min-height: 180px;
