@@ -102,10 +102,11 @@ p {
 
 #servicesIntroWrap {
 	background-color: #d2232a;
-	padding: 30px 30px 30px 40px;
+	padding: 30px 30px 35px 70px;
 	margin-bottom: 35px;
 	}
 	
+
 #servicesIntro H3{
 	color: White;
 	margin-bottom:10px;
@@ -113,7 +114,7 @@ p {
 
 #tv {
 	padding: 10px;
-	border-bottom: solid 1px #d2232a;
+	border-bottom: solid 2px #d2232a;
 	}
 
 #tv img{
@@ -135,7 +136,7 @@ p {
 	color: #cccccc;
 	}
 	
-#internet a:hover {
+	#internet a:hover {
 	color: #cccccc;
 	}
 
@@ -143,13 +144,14 @@ p {
 	color: #cccccc;
 	}
 
+	
 #internet {
 	padding: 10px 10px 40px 10px;
-	border-bottom: solid 1px #d2232a;
+	border-bottom: solid 2px #d2232a;
 	}
 
 #internet .text{
-	border-right: solid 1px #d2232a;
+	border-right: solid 2px #d2232a;
 	}
 
 #internet p {
@@ -176,7 +178,7 @@ p {
 	}
 
 #phone .text{
-	border-right: solid 1px #d2232a;
+	border-right: solid 2px #d2232a;
 	}
 
 #phone p {
@@ -197,7 +199,11 @@ p {
 	margin-right: 10px;
 	width: 60px;
 	}
-
+	
+	.upgrade{
+	
+	
+	}
 
 /* END SERVICES PAGE */
 
@@ -211,19 +217,24 @@ p {
 	
 #productsIntro h3{
 	color: White;
+	padding-left: 30px;
 	}
 	
+
 .products #text2{
+	
 	min-height:180px;
 	padding:20px 0 0 40px;
-	border-left: solid 1px #d2232a; 
+	border-left: solid 2px #d2232a; 
 	float:right;
 	}
 	
-#slide_wrap #text2 a:hover {
+
+	#slide_wrap #text2 a:hover {
 	color: #cccccc;
 	}
 
+	
 li.slide1, li.slide2, li.slide3 {
 	font-family:'Oswald', sans-serif;
 	font-weight:700;
@@ -234,7 +245,7 @@ li.slide1, li.slide2, li.slide3 {
 	cursor:pointer;
 	}
 	
-li.slide1:hover, li.slide2:hover, li.slide3:hover {
+	li.slide1:hover, li.slide2:hover, li.slide3:hover {
 	color:#cccccc;
 	}
 	
@@ -250,6 +261,7 @@ li.slide1:hover, li.slide2:hover, li.slide3:hover {
 	
 #slide_wrap {
 	padding:10px;
+	
 	height: 200px;
 	}
 	
@@ -262,6 +274,7 @@ li.slide1:hover, li.slide2:hover, li.slide3:hover {
 	}
 	
 .controls{
+	
 	height:50px;
 	display:block;
 	margin:10px 0 20px 10px;
@@ -282,12 +295,18 @@ ul.products_nav li{
     color: #d2232a;
 	}
 
+.products h1{
+	padding-left: 30px
+	}
+
 #slide_wrap #text a:hover {
 	color: #cccccc;
 	}
 	
-#products_button{	
+	#products_button{
+	
 	margin-top: 10%;
+	
 	}
 
 /* END PRODUCTS PAGE */
@@ -300,13 +319,18 @@ ul.products_nav li{
 	margin-bottom: 35px;
 	}
 	
+#whoText{
+	margin-left:40px;
+	}
+
 #whoText H3{
+
 	color: White;
 	}
 
 #missionStatement {
 	padding-bottom: 30px;
-	border-bottom: solid 1px #d2232a;
+	border-bottom: solid 2px #d2232a;
 	}
 
 #where {
@@ -375,6 +399,7 @@ ul.products_nav li{
 	margin: 0 0 0 20px;
 	list-style: none;
 	}
+	
 	
 #footer a {
 	text-decoration: none;
@@ -467,12 +492,17 @@ a.nav:active {text-decoration:none;}
 	display: block;
 	}
 	
+	#intro{
+	padding-left:40px;
+	
+	}
+	
 #home_small_quote{
 	margin-top: 10px;
 	}
 
 #homeWrap {
-	padding: 30px 30px 35px 40px;
+	padding: 30px 30px 35px 30px;
 	margin-bottom: 35px;
 	}
 
@@ -860,8 +890,12 @@ a.nav:active {text-decoration:none;}
 .testimonial h1{
 	margin-left: 40px;
 	color: white;
+	
 	letter-spacing: .07em;
 	}
+
+
+
 
 .pullquote h3{
 	
@@ -911,12 +945,15 @@ a.nav:active {text-decoration:none;}
 	width: 100%;
 	margin-bottom: 10%;
 	min-height: 400px;
-	border-top: solid 1px #d2232a;
+	border-top: solid 2px #d2232a;
     margin-top: 5%;  
       
     }
 
-.column1, .column2, .column3{
+
+
+
+   .column1, .column2, .column3{
    width: 30%;
    height: auto;
    float: left;
@@ -927,21 +964,33 @@ a.nav:active {text-decoration:none;}
    
    }
    
-.column2, .column3{   
+   .column2, .column3{
+   
    padding-top: 11%;
    }
    
-.testimonial_pictures{ 
-	 width: 50%;
-	 margin-top: 10%;
-	 margin: 115px 0 0 35px;
+   
+ /*    p {
+  margin-bottom: 0 }
+p + p {
+  text-indent: 1.5em;
+  margin-top: 5% }*/
+ 
+ .testimonial_pictures{
+ 
+ width: 50%;
+ margin-top: 10%;
+ margin: 115px 0 0 35px;
+ 
  	}
  	
-.button{
-	 margin-left: 1.5em;
-	 padding: 1em;
-	 background-color: #d2232a;
-	 }
+ 	  
+  
+ .button{
+ margin-left: 1.5em;
+ padding: 1em;
+ background-color: #d2232a;
+ }
  
  a.button{
  
@@ -954,7 +1003,7 @@ a.button:hover {
 	color: #cccccc;
 	}
 	
-#mobile_paragraph{
+	#mobile_paragraph{
 	display: none;
 	}	
     
@@ -1017,7 +1066,7 @@ a.button:hover {
 		width: 100%;
 		margin-bottom: 10%;
 		height: auto;
-		border-top: solid 1px #d2232a;
+		border-top: solid 2px #d2232a;
 		margin-top: 5%;     
 		}
 	
@@ -1094,14 +1143,14 @@ a.button:hover {
 		#phone .text{
 			margin-bottom: 20px;
 			padding-bottom: 20px;
-			border-bottom: solid 1px #d2232a;
+			border-bottom: solid 2px #d2232a;
 			border-right: none;
 			}
 		
 		#internet .text{
 			margin-bottom: 20px;
 			padding-bottom: 20px;
-			border-bottom: solid 1px #d2232a;
+			border-bottom: solid 2px #d2232a;
 			border-right: none;
 			}
 		
@@ -1140,7 +1189,7 @@ a.button:hover {
 			}
 		
 		#whatWeDo {
-			border-bottom: solid 1px #d2232a;
+			border-bottom: solid 2px #d2232a;
 			}
 			
 		#whoText{
@@ -1174,7 +1223,7 @@ a.button:hover {
 			}
 		
 		#wufoo-z7x3x5 {
-			border-bottom: solid 1px #d2232a;
+			border-bottom: solid 2px #d2232a;
 			padding-bottom; 20px;
 			}
 		
@@ -1183,7 +1232,7 @@ a.button:hover {
 			}
 			
 		#contactLeft {
-			border-bottom: solid 1px #d2232a;
+			border-bottom: solid 2px #d2232a;
 			padding-bottom: 30px;
 			margin-bottom: 20px;
 			}
@@ -1273,13 +1322,13 @@ a.button:hover {
 		
 		/*home page*/
 		
-		 H1 {
+		 h1 {
 			color: white;
 			letter-spacing: 0.05em;
+			margin-left: -40px;
 			font-size: 2.7em;
 			background-color: transparent;
 		}
-		
 		H3 {
 			color: #D2232A;
 			font-family: "depot-new-condensed-web",sans-serif;
@@ -1288,6 +1337,7 @@ a.button:hover {
 			letter-spacing: 0.02em;
 			line-height: 1.36em;
 			text-decoration: none;
+			margin-left: -40px;
 			width: 350px;
 			}
 		
@@ -1793,7 +1843,6 @@ H3 {
 	
 	#homeWrap h3{
 		width: 200px;	
-		padding: 20px;
 		}
 	
 	.contactBubble{
