@@ -114,7 +114,7 @@ p {
 
 #tv {
 	padding: 10px;
-	border-bottom: solid 2px #d2232a;
+	border-bottom: solid 1px #d2232a;
 	}
 
 #tv img{
@@ -147,11 +147,11 @@ p {
 	
 #internet {
 	padding: 10px 10px 40px 10px;
-	border-bottom: solid 2px #d2232a;
+	border-bottom: solid 1px #d2232a;
 	}
 
 #internet .text{
-	border-right: solid 2px #d2232a;
+	border-right: solid 1px #d2232a;
 	}
 
 #internet p {
@@ -178,7 +178,7 @@ p {
 	}
 
 #phone .text{
-	border-right: solid 2px #d2232a;
+	border-right: solid 1px #d2232a;
 	}
 
 #phone p {
@@ -225,7 +225,7 @@ p {
 	
 	min-height:180px;
 	padding:20px 0 0 40px;
-	border-left: solid 2px #d2232a; 
+	border-left: solid 1px #d2232a; 
 	float:right;
 	}
 	
@@ -330,7 +330,7 @@ ul.products_nav li{
 
 #missionStatement {
 	padding-bottom: 30px;
-	border-bottom: solid 2px #d2232a;
+	border-bottom: solid 1px #d2232a;
 	}
 
 #where {
@@ -945,7 +945,7 @@ a.nav:active {text-decoration:none;}
 	width: 100%;
 	margin-bottom: 10%;
 	min-height: 400px;
-	border-top: solid 2px #d2232a;
+	border-top: solid 1px #d2232a;
     margin-top: 5%;  
       
     }
@@ -1066,7 +1066,7 @@ a.button:hover {
 		width: 100%;
 		margin-bottom: 10%;
 		height: auto;
-		border-top: solid 2px #d2232a;
+		border-top: solid 1px #d2232a;
 		margin-top: 5%;     
 		}
 	
@@ -1143,14 +1143,14 @@ a.button:hover {
 		#phone .text{
 			margin-bottom: 20px;
 			padding-bottom: 20px;
-			border-bottom: solid 2px #d2232a;
+			border-bottom: solid 1px #d2232a;
 			border-right: none;
 			}
 		
 		#internet .text{
 			margin-bottom: 20px;
 			padding-bottom: 20px;
-			border-bottom: solid 2px #d2232a;
+			border-bottom: solid 1px #d2232a;
 			border-right: none;
 			}
 		
@@ -1189,7 +1189,7 @@ a.button:hover {
 			}
 		
 		#whatWeDo {
-			border-bottom: solid 2px #d2232a;
+			border-bottom: solid 1px #d2232a;
 			}
 			
 		#whoText{
@@ -1223,7 +1223,7 @@ a.button:hover {
 			}
 		
 		#wufoo-z7x3x5 {
-			border-bottom: solid 2px #d2232a;
+			border-bottom: solid 1px #d2232a;
 			padding-bottom; 20px;
 			}
 		
@@ -1232,7 +1232,7 @@ a.button:hover {
 			}
 			
 		#contactLeft {
-			border-bottom: solid 2px #d2232a;
+			border-bottom: solid 1px #d2232a;
 			padding-bottom: 30px;
 			margin-bottom: 20px;
 			}
