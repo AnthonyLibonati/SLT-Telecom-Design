@@ -879,7 +879,7 @@ a.nav:active {text-decoration:none;}
 #content_testimonials{
 	margin-top: 0px;
 	background-color:  #d2232a;
-	min-height: 320px;
+	min-height: 360px;
 	clear: both;
 	display: block;
 	position: relative;
@@ -1341,8 +1341,16 @@ a.button:hover {
 			width: 350px;
 			}
 		
-		#homeWrap h3{
-			width: 250px;	
+		
+		#homeWrap h1{
+		
+		margin: 0 auto;
+		
+		}
+		
+				#homeWrap h3{
+			width: 250px;
+				
 			}
 		
 		.contactBubble{
@@ -1404,7 +1412,7 @@ a.button:hover {
 
 		#homeWrap h3{
 			width: 300px;
-			margin-left: -40px;
+			margin-left: 0px;
 			}
 	
 	}
@@ -1547,6 +1555,7 @@ column1, .column2, .column3 {
 .quote{
 	margin-top: 5px;
 	margin-left: -23px;
+	display: none;
 	}
 	
 /* end testimonials*/
@@ -1586,22 +1595,17 @@ H3 {
 	margin-left: 0;
 	}
 
-#homeWrap{
-	padding: 10px;
-	}
+
  
- #intro{
-  	padding-left: 10px;
-  	}
-  
+   
 .contactBubble{
 	margin-top: -60px;
 	float: left;
-	margin-left: 38px;
+	margin-left: -10px;
 	}
 	
 .contact_house{
-	margin-left: 38px;
+	margin-left: 42px;
 	float: left;
 	margin-top: 20px;
 	}
@@ -1610,18 +1614,15 @@ H3 {
 	margin-left: 0px;
 	width: 300px;
 	}
+#intro, #homeWrap, .products h1{
+padding: 0;
+margin: 0;
 
-#whoIntroWrap{
-	padding: 10px 10px 20px 20px;
-	}
+}
 
-#whoText h3{
-	margin-left: 0px;
-	width:250px;
-	}
 
 #whereWeDoIt img {
-    margin: o auto;
+    margin: 0 auto;
     width: 80%;
 	}  
 
@@ -1629,28 +1630,30 @@ H3 {
 	padding-left: 10px;
 	}
 
-#servicesIntro h3{
-	margin-left: 5%;
-	width: 230px;
-	}
-
-#productsIntro h3{
-	margin-left: -30px;
-	width: 230px;
-	}
-
-
-#productsIntro h1{
-	margin-left: -30px;
-	width: 230px;
-	}
-
-#servicesIntro h1{
-	margin-left: 5%;
-	}
-
-#whoText h1{
+#servicesIntro h3, #productsIntro h3, #whoText h3, #homeWrap h3, .pullquote h3{
+	padding: 5%;
+	width: 260px !important;
 	margin-left: 0px;
+	padding-bottom: 10%;
+	}
+
+
+
+#productsIntro h1, #servicesIntro h1, #whoText h1, #homeWrap h1, .products h1, #content_testimonials h1{
+	width: 260px;
+	margin-left: 0px;
+	padding: 5%;	
+	}
+
+#whoIntroWrap, #content, #servicesIntroWrap, #productsIntro, #content_testimonials{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.pullquote{
+
+	margin-top: -20px !important;
+	margin-left: -20px !important;
 	}
 
 .container h1{
@@ -1658,14 +1661,17 @@ H3 {
     letter-spacing: 0.05em;
     padding-top: 0;
     font-size: 2.3em;
-    margin-left: 8%;
+  
   	}
   
  h1 {
     color: white;
     letter-spacing: 0.05em;
-    margin-left: -90px;
+    
     font-size: 2.7em;
+    margin: 0 auto;
+    padding: 0%;
+    
 	}
 	
 H3 {
@@ -1677,17 +1683,17 @@ H3 {
     line-height: 1.36em;
     text-decoration: none;
     margin-left: -40px;
-    width: 350px;
+    
+ 
 	}
 
-#homeWrap h3{
-	width: 200px;	
-	}
+	
+
 
 .contactBubble{
 	margin-top: -60px;
 	float: left;
-	margin-left: 55px;
+	margin-left: 42px;
 	}
 =======
 	  
