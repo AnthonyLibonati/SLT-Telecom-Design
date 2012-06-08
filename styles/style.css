@@ -595,8 +595,14 @@ a.nav:active {text-decoration:none;}
 	}
 
 #wufoo-z7x3x5{
-	color:  #d2232d ; 
+	background-color: #d2232a;
+	color: White;
 	margin-top: 10px;
+	}
+
+#wufoo-z7x3x5 .field {
+	background-color: White;
+	color: #d2232a;
 	}
 
 .lynette{
