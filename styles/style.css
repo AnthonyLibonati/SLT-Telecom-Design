@@ -391,6 +391,7 @@ ul.products_nav li{
 #footer ul {
 	margin: 8 0 10 0px;
 	list-style: none;
+	letter-spacing: .07em;
 	}
 	
 #footer li {
@@ -439,7 +440,7 @@ ul.nav li{
     border: none;   
     background-color: none;
     font-size: 100%;
-    letter-spacing: .03em;
+    letter-spacing: .07em;
 	}
 
 a.nav:link {text-decoration:none; padding-bottom: 3px; color: #d2232a;}
@@ -1630,8 +1631,7 @@ margin: 0;
   
  h1 {
     color: white;
-    letter-spacing: 0.05em;
-    
+    letter-spacing: .08em;
     font-size: 2.7em;
     margin: 0 auto;
     padding: 0%;
@@ -1647,8 +1647,6 @@ H3 {
     line-height: 1.36em;
     text-decoration: none;
     margin-left: -40px;
-    
- 
 	}
 
 	
