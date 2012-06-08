@@ -1420,30 +1420,36 @@ a.button:hover {
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
   
- #home-button {
-    float: left;
-    margin-left: 3px;
-    margin-right: 25px;
-    margin-top: -2px;
-    margin-bottom: 20px;
-	}
- 
- ul.nav li{
- 	float: left;
-    list-style: none;
-   	margin: 0 auto;
-    border: none;
-    color: #d2232a;
-    border: none;   
-    background-color: none;
-    font-size: 80%;
-    letter-spacing: .03em;
-    clear: both;
-    position: relative;
-    clear: none;
-    padding-left: 5px;
-	}
+	 #home-button {
+		float: left;
+		margin-left: 3px;
+		margin-right: 25px;
+		margin-top: -2px;
+		margin-bottom: 20px;
+		}
+	 
+	 ul.nav li{
+		float: left;
+		list-style: none;
+		margin: 0 auto;
+		border: none;
+		color: #d2232a;
+		border: none;   
+		background-color: none;
+		font-size: 80%;
+		letter-spacing: .03em;
+		clear: both;
+		position: relative;
+		clear: none;
+		padding-left: 5px;
+		}
+		
+	a.nav:link {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
+	a.nav:visited {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
+	a.nav:hover {text-decoration:none; padding-bottom: 0px; border-bottom:1px solid #a21d22; color: #a21d22;}
+	a.nav:active {text-decoration:none;}
 	
+<<<<<<< HEAD
 a.nav:link {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
 a.nav:visited {text-decoration:none; padding-bottom: 0px; color: #d2232a;}
 a.nav:hover {text-decoration:none; padding-bottom: 0px; border-bottom:1px solid #a21d22; color: #a21d22;}
@@ -1479,12 +1485,42 @@ column1, .column2, .column3 {
     padding-top: 5%;
     width: 100%;
 	}
+=======
+	/*testimonials*/
+	  
+	#mobile_paragraph{
+		display:block;
+		width: 90%;
+		padding-top: 5em;
+		margin: 0 auto;
+		}
+>>>>>>> nothing
 	
-#one, #two, #three{
-	width: 90%;
-	margin: 0 auto;
-	}
+	.fullsize{
+		display: none;
+		}
+	  
+	column1, .column2, .column3 {
+		border-bottom: 1px solid transparent;
+		float: left;
+		height: auto;
+		margin: 0 1em;
+		padding-left: 0.2em;
+		padding-top: 5%;
+		width: 100%;
+		}
+		
+	#one, #two, #three{
+		width: 90%;
+		margin: 0 auto;
+		}
+		
+	.testimonial_pictures {
+		margin: 0 auto;
+		width: 100%;
+		}
 	
+<<<<<<< HEAD
 .testimonial_pictures {
     margin: 0 auto;
     width: 100%;
@@ -1659,4 +1695,166 @@ H3 {
 	float: left;
 	margin-left: 42px;
 	}
+=======
+	  
+	.testimonial h1 {
+		color: white;
+		letter-spacing: 0.05em;
+		margin-left: 20px;
+		font-size: 2em;
+		}
+	  
+	  H2 {
+		color: #D2232A;
+		font-family: "depot-new-condensed-web",sans-serif;
+		font-size: 1.5em;
+		font-weight: 300;
+		line-height: 1.39em;
+		margin-bottom: 0.25em;
+		text-decoration: none;
+		}
+	
+	.pullquote {
+		background-color: white;
+		height: auto;
+		margin: -55px 0 0 -15px !important;
+		padding: 10px;
+		width: 200px !important;
+		}
+	
+	.quote{
+		margin-top: 15px;
+		margin-left: -23px;
+		}
+		
+	/* end testimonials*/
+	  
+	  /*home page*/
+	  
+	h1 {
+		color: white;
+		letter-spacing: 0.05em;
+		padding-top: 10px;
+		font-size: 2.5em;
+		}
+		
+	H3 {
+		color: #D2232A;
+		font-family: "depot-new-condensed-web",sans-serif;
+		font-size: 1.75em;
+		font-weight: 400;
+		letter-spacing: 0.05em;
+		line-height: 1.36em;
+		text-decoration: none;
+		}
+	
+	#homeWrap h3{
+		width: 250px;
+		margin-left: 0;
+		}
+	
+	#homeWrap{
+		padding: 10px;
+		}
+	 
+	 #intro{
+		padding-left: 10px;
+		}
+	  
+	.contactBubble{
+		margin-top: -60px;
+		float: left;
+		margin-left: 38px;
+		}
+		
+	.contact_house{
+		margin-left: 38px;
+		float: left;
+		margin-top: 20px;
+		}
+	
+	#whoText{
+		margin-left: 0px;
+		width: 300px;
+		}
+	
+	#whoIntroWrap{
+		padding: 20px 10px 20px 10px;
+		}
+	
+	#whoText h3{
+		margin-left: 0px;
+		width:250px;
+		}
+	
+	#whereWeDoIt img {
+		margin: o auto;
+		width: 80%;
+		}  
+	
+	#servicesIntroWrap{
+		padding-left: 10px;
+		}
+	
+	#servicesIntro h3{
+		margin-left: -30px;
+		width: 230px;
+		}
+	
+	#productsIntro h3{
+		margin-left: -30px;
+		width: 230px;
+		}
+	
+	
+	#productsIntro h1{
+		margin-left: -30px;
+		width: 230px;
+		}
+	
+	#servicesIntro h1{
+		margin-left: -30px;
+		}
+	
+	#whoText h1{
+		margin-left: 0px;
+		}
+	
+	.container h1{
+		color: white;
+		letter-spacing: 0.05em;
+		padding-top: 10px;
+		font-size: 2.5em;
+		margin-left: 0px;
+		}
+	  
+	 h1 {
+		color: white;
+		letter-spacing: 0.05em;
+		margin-left: -90px;
+		font-size: 2.7em;
+		}
+		
+	H3 {
+		color: #D2232A;
+		font-family: "depot-new-condensed-web",sans-serif;
+		font-size: 1.75em;
+		font-weight: 400;
+		letter-spacing: 0.05em;
+		line-height: 1.36em;
+		text-decoration: none;
+		margin-left: -40px;
+		width: 350px;
+		}
+	
+	#homeWrap h3{
+		width: 200px;	
+		}
+	
+	.contactBubble{
+		margin-top: -60px;
+		float: left;
+		margin-left: 55px;
+		}
+>>>>>>> nothing
 }
